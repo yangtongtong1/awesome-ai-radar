@@ -1,0 +1,45 @@
+name: Update AI Radar
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-ai-radar
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Collect and index repositories
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/collect.py
+
+      - name: Commit updated radar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add INDEX.md data categories
+          if git diff --cached --quiet; then
+            echo "No radar changes to commit."
+          else
+            git commit -m "Update AI radar $(date -u +%F)"
+            git push
+          fi
