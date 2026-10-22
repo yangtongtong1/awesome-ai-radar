@@ -13,16 +13,16 @@
 
 | 分类 | 关注点 |
 |---|---|
-| Agents & MCP | AI Agent、工具调用、MCP、自动化工作流 |
-| LLM & RAG | 大模型、推理、提示词、RAG、向量检索 |
-| Developer Tools | 编码助手、CLI、IDE 插件、开发效率工具 |
-| Frameworks & Infrastructure | 训练、推理、部署、分布式与模型基础设施 |
-| Research & Papers | 论文实现、研究复现、技术综述 |
-| Data & Evaluation | 数据集、Benchmark、评测与安全 |
-| Vision, Audio & Creative | 图像、视频、语音、音乐、创意生成 |
-| Interesting Applications | 聊天机器人、自动化、WebUI、有趣的 AI 应用 |
-| Awesome & Guides | Awesome 列表、教程、学习路线与资源汇总 |
-| General AI & Machine Learning | 未归入以上主题的通用 AI / 机器学习项目 |
+| [Agents & MCP](./categories/agents-mcp.md) | AI Agent、工具调用、MCP、自动化工作流 |
+| [LLM & RAG](./categories/llm-rag.md) | 大模型、推理、提示词、RAG、向量检索 |
+| [Developer Tools](./categories/developer-tools.md) | 编码助手、CLI、IDE 插件、开发效率工具 |
+| [Frameworks & Infrastructure](./categories/frameworks-infrastructure.md) | 训练、推理、部署、分布式与模型基础设施 |
+| [Research & Papers](./categories/research-papers.md) | 论文实现、研究复现、技术综述 |
+| [Data & Evaluation](./categories/data-evaluation.md) | 数据集、Benchmark、评测与安全 |
+| [Vision, Audio & Creative](./categories/vision-audio-creative.md) | 图像、视频、语音、音乐、创意生成 |
+| [Interesting Applications](./categories/interesting-applications.md) | 聊天机器人、自动化、WebUI、有趣的 AI 应用 |
+| [Awesome & Guides](./categories/awesome-guides.md) | Awesome 列表、教程、学习路线与资源汇总 |
+| [General AI & Machine Learning](./categories/general-ai-machine-learning.md) | 未归入以上主题的通用 AI / 机器学习项目 |
 
 ## 数据文件
 
