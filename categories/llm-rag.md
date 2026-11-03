@@ -1,58 +1,58 @@
 # LLM & RAG
 
-> 大模型、推理、提示词、RAG 与向量检索 · 更新时间：2026-11-02
+> 大模型、推理、提示词、RAG 与向量检索 · 更新时间：2026-11-03
 
 共收录 120 个项目，以下展示前 50 个。
 
 | 仓库 | Stars | 7天 | 30天 | 语言 | 简介 |
 |---|---:|---:|---:|---|---|
-| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 122,778 | +607 | +0 | Jupyter Notebook | 21 Lessons, Get Started Building with Generative AI |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | 168,432 | +266 | +0 | Python | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. |
-| [f/prompts.chat](https://github.com/f/prompts.chat) | 175,561 | +987 | +0 | MDX | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. |
-| [ollama/ollama](https://github.com/ollama/ollama) | 185,619 | +843 | +0 | Go | Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. |
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 137,219 | +2,057 | +0 | Python | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 96,095 | +574 | +0 | Python | A high-throughput and memory-efficient inference and serving engine for LLMs |
-| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 107,668 | +382 | +0 | Jupyter Notebook | Implement a ChatGPT-like LLM in PyTorch from scratch, step by step |
-| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 92,093 | +430 | +0 | Python | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages. |
-| [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | 58,249 | +26 | +0 | Python | Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export. |
-| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 64,747 | +332 | +0 | Python | 🧠 Train a 64M-parameter LLM from scratch in just 2h! |
-| [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 67,639 | +39 | +0 | Python | 🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠 |
-| [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | 54,914 | +1,027 | +0 | Python | Academic Research Skills for Claude Code: research → write → review → revise → finalize |
-| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 54,850 | +179 | +0 | C++ | Port of OpenAI's Whisper model in C/C++ |
-| [sgl-project/sglang](https://github.com/sgl-project/sglang) | 38,358 | +190 | +0 | Python | SGLang is a high-performance serving framework for large language models and multimodal models. |
-| [ray-project/ray](https://github.com/ray-project/ray) | 44,179 | +56 | +0 | Python | Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads. |
-| [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) | 40,299 | +1,063 | +0 | TypeScript | An AI prompt optimizer for writing better prompts and getting better AI results. |
-| [lyogavin/airllm](https://github.com/lyogavin/airllm) | 41,528 | +847 | +0 | Jupyter Notebook | AirLLM 2.8T LLM inference with single 4GB GPU |
-| [p-e-w/heretic](https://github.com/p-e-w/heretic) | 37,640 | +1,139 | +0 | Python | Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more |
-| [pathwaycom/serviette](https://github.com/pathwaycom/serviette) | 58,735 | +0 | +0 | Python | A no-code RAG server that keeps answers in sync with your documents. Works with 8 vector databases. Built on Pathway. |
-| [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | 47,544 | +446 | +0 | Python | A community-supported supercharged document management system: scan, index and archive all your documents |
-| [milvus-io/milvus](https://github.com/milvus-io/milvus) | 46,555 | +77 | +0 | Go | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search |
-| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 40,474 | +146 | +0 | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
-| [deepspeedai/DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | 43,282 | +9 | +0 | Python | DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective. |
-| [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | 35,211 | +261 | +0 | JavaScript | LLM Frontend for Power Users. |
-| [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 37,507 | +104 | +0 | C++ | Cross-platform, customizable ML solutions for live and streaming media. |
-| [janhq/jan](https://github.com/janhq/jan) | 45,273 | +187 | +0 | Rust | Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. |
-| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | 32,031 | +495 | +0 | JavaScript | Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed. |
-| [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) | 41,433 | +3 | +0 | Python | Making large AI models cheaper, faster and more accessible |
-| [The-Vibe-Company/quivr](https://github.com/The-Vibe-Company/quivr) | 39,624 | +21 | +0 | Go | An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hybrid search, alerts, and plugins for formats, models and business rules. |
-| [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) | 30,096 | +140 | +0 | HTML | A one stop repository for generative AI research updates, interview resources, notebooks and much more! |
-| [google/langextract](https://github.com/google/langextract) | 39,231 | +187 | +0 | Python | A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization. |
-| [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | 33,158 | +173 | +0 | Python | Open Source AI Platform - AI Chat with advanced features that works with every LLM |
-| [microsoft/graphrag](https://github.com/microsoft/graphrag) | 36,526 | +79 | +0 | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
-| [explosion/spaCy](https://github.com/explosion/spaCy) | 34,013 | +19 | +0 | Python | 💫 Industrial-strength Natural Language Processing (NLP) in Python |
-| [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) | 38,555 | +178 | +0 | Rust | Hundreds of models & providers. One command to find what runs on your hardware. |
-| [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher) | 29,042 | +179 | +0 | Python | The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support. |
-| [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 32,372 | +211 | +0 | Rust | Privacy first AI meeting note taker. Download Free and open source granola, otter ai, fireflies alternative. Parakeet / Whisper live transcription, on-device speaker diarization, built on Rust. 100% local processing. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker & Assistant for macOS & Windows |
-| [qdrant/qdrant](https://github.com/qdrant/qdrant) | 35,376 | +125 | +0 | Rust | Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/ |
-| [ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 32,428 | +205 | +0 | Python | Python scraper based on AI |
-| [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | 28,725 | +30 | +0 | C# | Integrate cutting-edge LLM technology quickly and easily into your apps |
-| [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) | 32,670 | +86 | +0 | Jupyter Notebook | 《开源大模型食用指南》针对中国宝宝量身打造的基于Linux环境快速微调（全参数/Lora）、部署国内外开源大模型（LLM）/多模态大模型（MLLM）教程 |
-| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 30,583 | +251 | +0 | Go | Find secrets with Gitleaks 🔑 |
-| [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | 30,142 | +139 | +0 | Java | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. |
-| [Tencent/ncnn](https://github.com/Tencent/ncnn) | 24,018 | +20 | +0 | C++ | ncnn is a high-performance neural network inference framework optimized for the mobile platform |
-| [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | 25,553 | +0 | +0 | Python | Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch |
-| [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) | 26,380 | +244 | +0 | Python | Faster Whisper transcription with CTranslate2 |
-| [datawhalechina/all-in-rag](https://github.com/datawhalechina/all-in-rag) | 12,772 | +230 | +0 | Python | 🔍大模型应用开发实战一：RAG 技术全栈指南，在线阅读地址：https://datawhalechina.github.io/all-in-rag/ |
-| [liguodongiot/llm-action](https://github.com/liguodongiot/llm-action) | 25,237 | +19 | +0 | HTML | 本项目旨在分享大模型相关技术原理以及实战经验（大模型工程化、大模型应用落地） |
-| [lukasmasuch/best-of-ml-python](https://github.com/lukasmasuch/best-of-ml-python) | 23,851 | +4 | +0 | — | 🏆 A ranked list of awesome machine learning Python libraries. Updated weekly. |
-| [huggingface/datasets](https://github.com/huggingface/datasets) | 22,104 | +17 | +0 | Python | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools |
+| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 122,874 | +643 | +0 | Jupyter Notebook | 21 Lessons, Get Started Building with Generative AI |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | 168,466 | +244 | +0 | Python | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | 175,648 | +966 | +0 | MDX | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. |
+| [ollama/ollama](https://github.com/ollama/ollama) | 185,738 | +822 | +0 | Go | Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 137,660 | +2,124 | +0 | Python | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 96,178 | +533 | +0 | Python | A high-throughput and memory-efficient inference and serving engine for LLMs |
+| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 107,726 | +357 | +0 | Jupyter Notebook | Implement a ChatGPT-like LLM in PyTorch from scratch, step by step |
+| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 92,162 | +426 | +0 | Python | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages. |
+| [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | 58,247 | +21 | +0 | Python | Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export. |
+| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 64,798 | +339 | +0 | Python | 🧠 Train a 64M-parameter LLM from scratch in just 2h! |
+| [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 67,661 | +60 | +0 | Python | 🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠 |
+| [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | 55,087 | +1,029 | +0 | Python | Academic Research Skills for Claude Code: research → write → review → revise → finalize |
+| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 54,875 | +181 | +0 | C++ | Port of OpenAI's Whisper model in C/C++ |
+| [p-e-w/heretic](https://github.com/p-e-w/heretic) | 38,237 | +1,654 | +0 | Python | Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more |
+| [sgl-project/sglang](https://github.com/sgl-project/sglang) | 38,383 | +154 | +0 | Python | SGLang is a high-performance serving framework for large language models and multimodal models. |
+| [ray-project/ray](https://github.com/ray-project/ray) | 44,187 | +58 | +0 | Python | Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads. |
+| [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) | 40,415 | +1,069 | +0 | TypeScript | An AI prompt optimizer for writing better prompts and getting better AI results. |
+| [lyogavin/airllm](https://github.com/lyogavin/airllm) | 41,631 | +808 | +0 | Jupyter Notebook | AirLLM 2.8T LLM inference with single 4GB GPU |
+| [pathwaycom/serviette](https://github.com/pathwaycom/serviette) | 58,731 | +0 | +0 | Python | A no-code RAG server that keeps answers in sync with your documents. Works with 8 vector databases. Built on Pathway. |
+| [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | 47,606 | +479 | +0 | Python | A community-supported supercharged document management system: scan, index and archive all your documents |
+| [milvus-io/milvus](https://github.com/milvus-io/milvus) | 46,569 | +78 | +0 | Go | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search |
+| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 40,494 | +139 | +0 | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
+| [deepspeedai/DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | 43,285 | +11 | +0 | Python | DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective. |
+| [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | 35,244 | +250 | +0 | JavaScript | LLM Frontend for Power Users. |
+| [janhq/jan](https://github.com/janhq/jan) | 45,355 | +246 | +0 | Rust | Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. |
+| [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 37,527 | +104 | +0 | C++ | Cross-platform, customizable ML solutions for live and streaming media. |
+| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | 32,102 | +483 | +0 | JavaScript | Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed. |
+| [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) | 41,434 | +5 | +0 | Python | Making large AI models cheaper, faster and more accessible |
+| [The-Vibe-Company/quivr](https://github.com/The-Vibe-Company/quivr) | 39,625 | +17 | +0 | Go | An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hybrid search, alerts, and plugins for formats, models and business rules. |
+| [google/langextract](https://github.com/google/langextract) | 39,256 | +207 | +0 | Python | A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization. |
+| [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) | 30,107 | +135 | +0 | HTML | A one stop repository for generative AI research updates, interview resources, notebooks and much more! |
+| [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | 33,170 | +158 | +0 | Python | Open Source AI Platform - AI Chat with advanced features that works with every LLM |
+| [microsoft/graphrag](https://github.com/microsoft/graphrag) | 36,536 | +80 | +0 | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
+| [explosion/spaCy](https://github.com/explosion/spaCy) | 34,015 | +18 | +0 | Python | 💫 Industrial-strength Natural Language Processing (NLP) in Python |
+| [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) | 38,585 | +181 | +0 | Rust | Hundreds of models & providers. One command to find what runs on your hardware. |
+| [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher) | 29,077 | +199 | +0 | Python | The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support. |
+| [qdrant/qdrant](https://github.com/qdrant/qdrant) | 35,399 | +133 | +0 | Rust | Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/ |
+| [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 32,391 | +188 | +0 | Rust | Privacy-first AI meeting note taker for Windows and macOS. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker diarization, no meeting bot. Open-source alternative to Granola, Otter and Fireflies. https://meetily.ai |
+| [ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 32,450 | +191 | +0 | Python | Python scraper based on AI |
+| [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | 28,727 | +25 | +0 | C# | Integrate cutting-edge LLM technology quickly and easily into your apps |
+| [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) | 32,679 | +82 | +0 | Jupyter Notebook | 《开源大模型食用指南》针对中国宝宝量身打造的基于Linux环境快速微调（全参数/Lora）、部署国内外开源大模型（LLM）/多模态大模型（MLLM）教程 |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 30,613 | +243 | +0 | Go | Find secrets with Gitleaks 🔑 |
+| [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | 30,157 | +104 | +0 | Java | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. |
+| [Tencent/ncnn](https://github.com/Tencent/ncnn) | 24,024 | +21 | +0 | C++ | ncnn is a high-performance neural network inference framework optimized for the mobile platform |
+| [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | 25,554 | +0 | +0 | Python | Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch |
+| [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper) | 26,428 | +237 | +0 | Python | Faster Whisper transcription with CTranslate2 |
+| [datawhalechina/all-in-rag](https://github.com/datawhalechina/all-in-rag) | 12,817 | +234 | +0 | Python | 🔍大模型应用开发实战一：RAG 技术全栈指南，在线阅读地址：https://datawhalechina.github.io/all-in-rag/ |
+| [liguodongiot/llm-action](https://github.com/liguodongiot/llm-action) | 25,242 | +17 | +0 | HTML | 本项目旨在分享大模型相关技术原理以及实战经验（大模型工程化、大模型应用落地） |
+| [lukasmasuch/best-of-ml-python](https://github.com/lukasmasuch/best-of-ml-python) | 23,854 | +6 | +0 | — | 🏆 A ranked list of awesome machine learning Python libraries. Updated weekly. |
+| [huggingface/datasets](https://github.com/huggingface/datasets) | 22,106 | +16 | +0 | Python | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools |
