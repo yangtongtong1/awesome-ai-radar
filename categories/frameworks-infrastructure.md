@@ -1,58 +1,58 @@
 # Frameworks & Infrastructure
 
-> 训练、推理、部署与模型基础设施 · 更新时间：2026-11-22
+> 训练、推理、部署与模型基础设施 · 更新时间：2026-11-23
 
 共收录 53 个项目，以下展示前 50 个。
 
 | 仓库 | Stars | 7天 | 30天 | 语言 | 简介 |
 |---|---:|---:|---:|---|---|
-| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 201,697 | +76 | +506 | C++ | An Open Source Machine Learning Framework for Everyone |
-| [pytorch/pytorch](https://github.com/pytorch/pytorch) | 105,750 | +235 | +761 | Python | Tensors and Dynamic neural networks in Python with strong GPU acceleration |
-| [apache/airflow](https://github.com/apache/airflow) | 47,589 | +108 | +328 | Python | Apache Airflow - A platform to programmatically author, schedule, and monitor workflows |
-| [dmlc/xgboost](https://github.com/dmlc/xgboost) | 29,012 | +38 | +109 | C++ | Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow |
-| [fastai/fastai](https://github.com/fastai/fastai) | 28,274 | +4 | +46 | Jupyter Notebook | The fastai deep learning library |
-| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31,469 | +22 | +43 | Python | Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes. |
-| [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | 24,149 | +2 | +21 | C++ | PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署） |
-| [recommenders-team/recommenders](https://github.com/recommenders-team/recommenders) | 22,009 | +14 | +50 | Python | Best Practices on Recommendation Systems |
-| [lightgbm-org/LightGBM](https://github.com/lightgbm-org/LightGBM) | 18,997 | +19 | +91 | C++ | A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks. |
-| [EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) | 21,122 | +20 | +98 | — | A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning |
-| [ty4z2008/Qix](https://github.com/ty4z2008/Qix) | 15,249 | +4 | +22 | — | Machine Learning、Deep Learning、PostgreSQL、Distributed System、Node.Js、Golang |
-| [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17,109 | +11 | +61 | Go | Workflow Engine for Kubernetes |
-| [apache/tvm](https://github.com/apache/tvm) | 13,919 | +20 | +60 | Python | Open Machine Learning Compiler Framework |
+| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 201,785 | +154 | +582 | C++ | An Open Source Machine Learning Framework for Everyone |
+| [pytorch/pytorch](https://github.com/pytorch/pytorch) | 105,832 | +284 | +810 | Python | Tensors and Dynamic neural networks in Python with strong GPU acceleration |
+| [apache/airflow](https://github.com/apache/airflow) | 47,609 | +119 | +341 | Python | Apache Airflow - A platform to programmatically author, schedule, and monitor workflows |
+| [dmlc/xgboost](https://github.com/dmlc/xgboost) | 29,015 | +37 | +111 | C++ | Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow |
+| [fastai/fastai](https://github.com/fastai/fastai) | 28,277 | +7 | +49 | Jupyter Notebook | The fastai deep learning library |
+| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31,470 | +20 | +43 | Python | Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes. |
+| [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | 24,148 | +0 | +22 | C++ | PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署） |
+| [recommenders-team/recommenders](https://github.com/recommenders-team/recommenders) | 22,010 | +13 | +50 | Python | Best Practices on Recommendation Systems |
+| [lightgbm-org/LightGBM](https://github.com/lightgbm-org/LightGBM) | 19,001 | +18 | +92 | C++ | A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks. |
+| [EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) | 21,125 | +19 | +97 | — | A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning |
+| [ty4z2008/Qix](https://github.com/ty4z2008/Qix) | 15,250 | +4 | +22 | — | Machine Learning、Deep Learning、PostgreSQL、Distributed System、Node.Js、Golang |
+| [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17,110 | +10 | +60 | Go | Workflow Engine for Kubernetes |
+| [apache/tvm](https://github.com/apache/tvm) | 13,924 | +21 | +62 | Python | Open Machine Learning Compiler Framework |
 | [deeplearning4j/deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) | 14,284 | +5 | +12 | Java | Suite of tools for deploying and training deep learning models using the JVM. Highlights include model import for keras, tensorflow, and onnx/pytorch, a modular and tiny c++ library for running math code and a java based math library on top of the core c++ library. Also includes samediff: a pytorch/tensorflow like library for running deep learn... |
+| [DataTalksClub/mlops-zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp) | 15,594 | +30 | +0 | Jupyter Notebook | Free MLOps course from DataTalks.Club. Register here 👇🏼 to get notified about the next cohort |
 | [tensorflow/tfjs](https://github.com/tensorflow/tfjs) | 19,160 | +0 | +10 | TypeScript | A WebGL accelerated JavaScript library for training and deploying ML models. |
-| [DataTalksClub/machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp) | 15,005 | +0 | +0 | Jupyter Notebook | Learn ML engineering for free in 4 months! Register here 👇🏼 |
-| [DataTalksClub/mlops-zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp) | 15,588 | +0 | +0 | Jupyter Notebook | Free MLOps course from DataTalks.Club. Register here 👇🏼 to get notified about the next cohort |
-| [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16,322 | +46 | +172 | Rust | Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability. |
-| [optuna/optuna](https://github.com/optuna/optuna) | 15,072 | +0 | +0 | Python | A hyperparameter optimization framework |
-| [spring-projects/spring-ai](https://github.com/spring-projects/spring-ai) | 9,665 | +18 | +96 | Java | An Application Framework for AI Engineering |
-| [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) | 10,865 | +9 | +23 | C++ | WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices. |
-| [mage-ai/mage-ai](https://github.com/mage-ai/mage-ai) | 8,849 | +1 | +13 | Python | 🧙 Build, run, and manage data pipelines for integrating and transforming data. |
-| [flwrlabs/flower](https://github.com/flwrlabs/flower) | 7,217 | +7 | +40 | Python | Flower: A Friendly Federated AI Framework |
-| [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 6,784 | +115 | +326 | Rust | ML-powered manga translator, written in Rust. |
-| [aldegad/sprite-gen](https://github.com/aldegad/sprite-gen) | 4,173 | +98 | +1,175 | Python | Generate clean 2D game sprites & animation atlases — component-row pipeline: state rows, alpha cleanup, frame extraction, runtime atlases. Codex/Claude skill. |
-| [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 5,222 | +36 | +174 | C++ | 基于图像识别的自动化黑盒测试框架 \| An automation black-box testing framework based on image recognition |
-| [PetoiCamp/OpenCat-Quadruped-Robot](https://github.com/PetoiCamp/OpenCat-Quadruped-Robot) | 5,574 | +11 | +84 | C++ | An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are perfect for STEM, coding & robotics education, IoT robotics applications, AI-enhanced robotics application services, research, and DIY robotics kit development. |
+| [DataTalksClub/machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp) | 15,014 | +0 | +0 | Jupyter Notebook | Learn ML engineering for free in 4 months! Register here 👇🏼 |
+| [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16,327 | +46 | +180 | Rust | Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability. |
+| [optuna/optuna](https://github.com/optuna/optuna) | 15,076 | +0 | +0 | Python | A hyperparameter optimization framework |
+| [spring-projects/spring-ai](https://github.com/spring-projects/spring-ai) | 9,669 | +16 | +94 | Java | An Application Framework for AI Engineering |
+| [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) | 10,865 | +7 | +21 | C++ | WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices. |
+| [mage-ai/mage-ai](https://github.com/mage-ai/mage-ai) | 8,850 | +2 | +13 | Python | 🧙 Build, run, and manage data pipelines for integrating and transforming data. |
+| [flwrlabs/flower](https://github.com/flwrlabs/flower) | 7,216 | +6 | +38 | Python | Flower: A Friendly Federated AI Framework |
+| [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 6,805 | +129 | +333 | Rust | ML-powered manga translator, written in Rust. |
+| [aldegad/sprite-gen](https://github.com/aldegad/sprite-gen) | 4,188 | +92 | +1,180 | Python | Generate clean 2D game sprites & animation atlases — component-row pipeline: state rows, alpha cleanup, frame extraction, runtime atlases. Codex/Claude skill. |
+| [MaaXYZ/MaaFramework](https://github.com/MaaXYZ/MaaFramework) | 5,229 | +41 | +176 | C++ | 基于图像识别的自动化黑盒测试框架 \| An automation black-box testing framework based on image recognition |
+| [PetoiCamp/OpenCat-Quadruped-Robot](https://github.com/PetoiCamp/OpenCat-Quadruped-Robot) | 5,577 | +12 | +83 | C++ | An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are perfect for STEM, coding & robotics education, IoT robotics applications, AI-enhanced robotics application services, research, and DIY robotics kit development. |
 | [sktime/pytorch-forecasting](https://github.com/sktime/pytorch-forecasting) | 5,011 | +0 | +8 | Python | Time series forecasting with PyTorch |
-| [PINTO0309/PINTO_model_zoo](https://github.com/PINTO0309/PINTO_model_zoo) | 4,649 | +9 | +19 | Python | A repository for storing models that have been inter-converted between various frameworks. Supported frameworks are TensorFlow, PyTorch, ONNX, OpenVINO, TFJS, TFTRT, TensorFlowLite (Float32/16/INT8), EdgeTPU, CoreML. |
-| [alicevision/AliceVision](https://github.com/alicevision/AliceVision) | 3,539 | +3 | +21 | C++ | 3D Computer Vision Framework |
+| [PINTO0309/PINTO_model_zoo](https://github.com/PINTO0309/PINTO_model_zoo) | 4,650 | +10 | +19 | Python | A repository for storing models that have been inter-converted between various frameworks. Supported frameworks are TensorFlow, PyTorch, ONNX, OpenVINO, TFJS, TFTRT, TensorFlowLite (Float32/16/INT8), EdgeTPU, CoreML. |
+| [alicevision/AliceVision](https://github.com/alicevision/AliceVision) | 3,540 | +4 | +22 | C++ | 3D Computer Vision Framework |
 | [PaddlePaddle/PARL](https://github.com/PaddlePaddle/PARL) | 3,453 | +0 | +0 | Python | A high-performance distributed training framework for Reinforcement Learning |
 | [ARM-software/ComputeLibrary](https://github.com/ARM-software/ComputeLibrary) | 3,213 | +4 | +16 | C++ | The Compute Library is a set of computer vision and machine learning functions optimised for both Arm CPUs and GPUs using SIMD technologies. |
-| [mani-skill/ManiSkill](https://github.com/mani-skill/ManiSkill) | 3,533 | +21 | +75 | Python | Manipulation Skill Framework, an open source GPU parallelized robotics simulator and benchmark |
-| [ARISE-Initiative/robosuite](https://github.com/ARISE-Initiative/robosuite) | 2,721 | +8 | +45 | Python | robosuite: A Modular Simulation Framework and Benchmark for Robot Learning |
-| [QData/TextAttack](https://github.com/QData/TextAttack) | 3,483 | +0 | +8 | Python | TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation, and model training in NLP https://textattack.readthedocs.io/en/master/ |
+| [mani-skill/ManiSkill](https://github.com/mani-skill/ManiSkill) | 3,537 | +22 | +76 | Python | Manipulation Skill Framework, an open source GPU parallelized robotics simulator and benchmark |
+| [ARISE-Initiative/robosuite](https://github.com/ARISE-Initiative/robosuite) | 2,722 | +9 | +46 | Python | robosuite: A Modular Simulation Framework and Benchmark for Robot Learning |
+| [QData/TextAttack](https://github.com/QData/TextAttack) | 3,484 | +1 | +9 | Python | TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation, and model training in NLP https://textattack.readthedocs.io/en/master/ |
 | [tensorflow/lingvo](https://github.com/tensorflow/lingvo) | 2,868 | +0 | +1 | Python | Lingvo |
-| [NVlabs/ProtoMotions](https://github.com/NVlabs/ProtoMotions) | 2,509 | +16 | +79 | Python | ProtoMotions is a GPU-accelerated simulation and learning framework for training physically simulated digital humans and humanoid robots. |
-| [xbpeng/MimicKit](https://github.com/xbpeng/MimicKit) | 2,443 | +8 | +46 | Python | A lightweight suite of motion imitation methods for training controllers. |
-| [sapientinc/HRM-Text](https://github.com/sapientinc/HRM-Text) | 2,343 | +21 | +130 | Python | HRM-Text is a 1B text generation model based on the HRM architecture, strengthened by task completion and latent space reasoning. |
+| [NVlabs/ProtoMotions](https://github.com/NVlabs/ProtoMotions) | 2,512 | +15 | +80 | Python | ProtoMotions is a GPU-accelerated simulation and learning framework for training physically simulated digital humans and humanoid robots. |
+| [sapientinc/HRM-Text](https://github.com/sapientinc/HRM-Text) | 2,347 | +22 | +129 | Python | HRM-Text is a 1B text generation model based on the HRM architecture, strengthened by task completion and latent space reasoning. |
+| [xbpeng/MimicKit](https://github.com/xbpeng/MimicKit) | 2,443 | +6 | +45 | Python | A lightweight suite of motion imitation methods for training controllers. |
 | [CVCUDA/CV-CUDA](https://github.com/CVCUDA/CV-CUDA) | 2,737 | +0 | +7 | C++ | CV-CUDA™ is an open-source, GPU accelerated library for cloud-scale image processing and computer vision. |
-| [Maa-NTE/MaaNTE](https://github.com/Maa-NTE/MaaNTE) | 2,825 | +0 | +0 | Python | MaaNTE. Nevertheless to Everless automatic assistant 异环小助手 |
-| [BindsNET/bindsnet](https://github.com/BindsNET/bindsnet) | 1,706 | +0 | +0 | Python | Simulation of spiking neural networks (SNNs) using PyTorch. |
+| [Maa-NTE/MaaNTE](https://github.com/Maa-NTE/MaaNTE) | 2,824 | +0 | +0 | Python | MaaNTE. Nevertheless to Everless automatic assistant 异环小助手 |
+| [BindsNET/bindsnet](https://github.com/BindsNET/bindsnet) | 1,707 | +0 | +0 | Python | Simulation of spiking neural networks (SNNs) using PyTorch. |
 | [meta-pytorch/tnt](https://github.com/meta-pytorch/tnt) | 1,722 | +0 | +0 | Python | A lightweight library for PyTorch training tools and utilities |
-| [VocaHQ/vocalinux](https://github.com/VocaHQ/vocalinux) | 1,036 | +21 | +75 | Python | Free, open-source, 100% offline voice dictation for Linux. Speak and type anywhere via whisper.cpp, Whisper & VOSK engines, GPU-accelerated, works on X11 + Wayland! |
-| [ChristopherKahler/paul](https://github.com/ChristopherKahler/paul) | 1,272 | +1 | +16 | JavaScript | Plan-Apply-Unify Loop — Structured AI-assisted development for Claude Code. Quality over speed-for-speed's-sake. |
-| [worldbench/DiffusionOPSD](https://github.com/worldbench/DiffusionOPSD) | 1,058 | +2 | +171 | Python | 🔥 On-Policy Self-Distillation in Diffusion Models |
-| [CrispStrobe/CrispASR](https://github.com/CrispStrobe/CrispASR) | 825 | +13 | +60 | C++ | C++ ggml runtime hub for multilingual ASR and TTS models: Cohere Transcribe, Parakeet TDT, Voxtral, Canary 1B v2, etc, plus universal forced alignment, and more |
+| [VocaHQ/vocalinux](https://github.com/VocaHQ/vocalinux) | 1,037 | +18 | +74 | Python | Free, open-source, 100% offline voice dictation for Linux. Speak and type anywhere via whisper.cpp, Whisper & VOSK engines, GPU-accelerated, works on X11 + Wayland! |
+| [ChristopherKahler/paul](https://github.com/ChristopherKahler/paul) | 1,275 | +4 | +19 | JavaScript | Plan-Apply-Unify Loop — Structured AI-assisted development for Claude Code. Quality over speed-for-speed's-sake. |
+| [worldbench/DiffusionOPSD](https://github.com/worldbench/DiffusionOPSD) | 1,058 | +2 | +159 | Python | 🔥 On-Policy Self-Distillation in Diffusion Models |
+| [CrispStrobe/CrispASR](https://github.com/CrispStrobe/CrispASR) | 826 | +13 | +58 | C++ | C++ ggml runtime hub for multilingual ASR and TTS models: Cohere Transcribe, Parakeet TDT, Voxtral, Canary 1B v2, etc, plus universal forced alignment, and more |
 | [k2-fsa/sherpa](https://github.com/k2-fsa/sherpa) | 1,023 | +0 | +10 | C++ | Speech-to-text server framework with next-gen Kaldi |
 | [TheStageAI/TheWhisper](https://github.com/TheStageAI/TheWhisper) | 906 | +3 | +3 | Python | Optimized Whisper models for streaming and on-device use |
 | [Picovoice/speech-to-text-benchmark](https://github.com/Picovoice/speech-to-text-benchmark) | 700 | +1 | +1 | Python | speech to text benchmark framework |
