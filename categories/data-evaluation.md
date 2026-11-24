@@ -1,16 +1,16 @@
 # Data & Evaluation
 
-> 数据集、Benchmark、评测与安全 · 更新时间：2026-11-23
+> 数据集、Benchmark、评测与安全 · 更新时间：2026-11-24
 
 共收录 8 个项目，以下展示前 8 个。
 
 | 仓库 | Stars | 7天 | 30天 | 语言 | 简介 |
 |---|---:|---:|---:|---|---|
-| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 28,747 | +48 | +207 | TypeScript | Label Studio is a multi-type data labeling and annotation tool with standardized output format |
-| [pytorch/vision](https://github.com/pytorch/vision) | 18,026 | +15 | +57 | Python | Datasets, Transforms and Models specific to Computer Vision |
-| [voxel51/fiftyone](https://github.com/voxel51/fiftyone) | 11,328 | +19 | +105 | TypeScript | Refine high-quality datasets and visual AI models |
-| [liuruoze/EasyPR](https://github.com/liuruoze/EasyPR) | 6,432 | +4 | +0 | C++ | (CGCSTCD'2017) An easy, flexible, and accurate plate recognition project for Chinese licenses in unconstrained situations. CGCSTCD = China Graduate Contest on Smart-city Technology and Creative Design |
-| [torchgeo/torchgeo](https://github.com/torchgeo/torchgeo) | 4,246 | +0 | +35 | Python | TorchGeo: datasets, samplers, transforms, and pre-trained models for geospatial data |
-| [sdv-dev/SDV](https://github.com/sdv-dev/SDV) | 3,608 | +4 | +26 | Python | Synthetic data generation for tabular data |
-| [RoboVerseOrg/RoboVerse](https://github.com/RoboVerseOrg/RoboVerse) | 1,881 | +0 | +9 | Python | RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning |
+| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 28,751 | +42 | +209 | TypeScript | Label Studio is a multi-type data labeling and annotation tool with standardized output format |
+| [pytorch/vision](https://github.com/pytorch/vision) | 18,027 | +16 | +57 | Python | Datasets, Transforms and Models specific to Computer Vision |
+| [voxel51/fiftyone](https://github.com/voxel51/fiftyone) | 11,333 | +19 | +105 | TypeScript | Refine high-quality datasets and visual AI models |
+| [liuruoze/EasyPR](https://github.com/liuruoze/EasyPR) | 6,432 | +3 | +0 | C++ | (CGCSTCD'2017) An easy, flexible, and accurate plate recognition project for Chinese licenses in unconstrained situations. CGCSTCD = China Graduate Contest on Smart-city Technology and Creative Design |
+| [torchgeo/torchgeo](https://github.com/torchgeo/torchgeo) | 4,247 | +1 | +35 | Python | TorchGeo: datasets, samplers, transforms, and pre-trained models for geospatial data |
+| [sdv-dev/SDV](https://github.com/sdv-dev/SDV) | 3,608 | +3 | +26 | Python | Synthetic data generation for tabular data |
+| [RoboVerseOrg/RoboVerse](https://github.com/RoboVerseOrg/RoboVerse) | 1,881 | +0 | +8 | Python | RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning |
 | [Farama-Foundation/Minari](https://github.com/Farama-Foundation/Minari) | 1,738 | +0 | +0 | Python | A standard format for offline reinforcement learning datasets, with popular reference datasets and related utilities |
