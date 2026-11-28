@@ -1,6 +1,6 @@
 # Awesome AI Radar Index
 
-> 更新日期：**2026-11-27** · 收录项目：**610**
+> 更新日期：**2026-11-28** · 收录项目：**606**
 
 ## 分类总览
 
@@ -10,9 +10,9 @@
 | [LLM & RAG](./categories/llm-rag.md) | 120 | 大模型、推理、提示词、RAG 与向量检索 |
 | [Developer Tools](./categories/developer-tools.md) | 69 | 编码助手、CLI、IDE 插件与开发效率工具 |
 | [Frameworks & Infrastructure](./categories/frameworks-infrastructure.md) | 53 | 训练、推理、部署与模型基础设施 |
-| [Research & Papers](./categories/research-papers.md) | 31 | 论文实现、研究复现与技术综述 |
+| [Research & Papers](./categories/research-papers.md) | 30 | 论文实现、研究复现与技术综述 |
 | [Data & Evaluation](./categories/data-evaluation.md) | 8 | 数据集、Benchmark、评测与安全 |
-| [Vision, Audio & Creative](./categories/vision-audio-creative.md) | 117 | 图像、视频、语音、音乐与创意生成 |
+| [Vision, Audio & Creative](./categories/vision-audio-creative.md) | 114 | 图像、视频、语音、音乐与创意生成 |
 | [Interesting Applications](./categories/interesting-applications.md) | 20 | 聊天机器人、自动化、WebUI 与有趣应用 |
 | [Awesome & Guides](./categories/awesome-guides.md) | 14 | Awesome 列表、教程与学习资源 |
 | [General AI & Machine Learning](./categories/general-ai-machine-learning.md) | 58 | 通用 AI 与机器学习项目 |
@@ -23,31 +23,31 @@ AI Agent、工具调用、MCP 与自动化工作流 · 前 25 个项目
 
 | 仓库 | Stars | 7天 | 30天 | 语言 | 简介 |
 |---|---:|---:|---:|---|---|
-| [morluto/rea](https://github.com/morluto/rea) | 480,194 | +9,812 | +81,948 | TypeScript | Reverse engineer anything with agents, from app behavior down to native binaries. |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 311,439 | +4,040 | +20,399 | JavaScript | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. |
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 287,785 | +3,417 | +23,848 | TypeScript | DeepSeek Harness: Everything is a Plugin. |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 266,475 | +1,657 | +8,668 | Python | The agent that grows with you |
-| [n8n-io/n8n](https://github.com/n8n-io/n8n) | 212,370 | +908 | +3,549 | TypeScript | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. |
-| [stablyai/orca](https://github.com/stablyai/orca) | 141,167 | +11,023 | +32,930 | TypeScript | Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime. |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 211,166 | +6,667 | +15,030 | TypeScript | Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API. |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 199,533 | +4,503 | +21,193 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
-| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 188,205 | +91 | +411 | Python | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. |
-| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 88,553 | +7,208 | +41,351 | JavaScript | 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap. |
-| [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) | 159,692 | +67 | +386 | JavaScript | Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发 |
-| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 74,914 | +1,405 | +7,734 | Python | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. |
-| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 153,959 | +3,192 | +16,845 | Python | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store. |
-| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 198,651 | +1,571 | +6,046 | Python | Python tool for converting files and office documents to Markdown. |
-| [langgenius/dify](https://github.com/langgenius/dify) | 161,983 | +438 | +2,229 | Python | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack. |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 159,665 | +546 | +2,672 | Svelte | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) |
-| [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 122,089 | +3,081 | +18,286 | JavaScript | Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages |
-| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 157,529 | +1,631 | +8,059 | Rust | A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 150,057 | +116 | +1,470 | Python | The agent engineering platform. |
-| [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 117,450 | +2,172 | +9,376 | TypeScript | The open-source app everyone uses to manage agents at work |
-| [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 145,882 | +780 | +2,618 | Python | 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source. |
-| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 123,873 | +669 | +6,442 | TypeScript | TradingAgents: Towards Agentic Finance Research |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 120,060 | +1,559 | +16,282 | TypeScript | Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More |
-| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 91,068 | +3,929 | +16,995 | TypeScript | Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen. |
-| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 106,069 | +1,574 | +15,979 | Python | 🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev |
+| [morluto/rea](https://github.com/morluto/rea) | 481,393 | +9,615 | +77,777 | TypeScript | Reverse engineer anything with agents, from app behavior down to native binaries. |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 312,011 | +4,052 | +20,103 | JavaScript | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 288,154 | +3,364 | +23,079 | TypeScript | DeepSeek Harness: Everything is a Plugin. |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 266,631 | +1,591 | +8,394 | Python | The agent that grows with you |
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) | 212,353 | +790 | +3,413 | TypeScript | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. |
+| [stablyai/orca](https://github.com/stablyai/orca) | 142,876 | +11,639 | +33,585 | TypeScript | Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime. |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 211,844 | +6,357 | +15,361 | TypeScript | Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API. |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 200,282 | +4,520 | +20,924 | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 188,218 | +98 | +412 | Python | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters. |
+| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 89,386 | +7,032 | +40,029 | JavaScript | 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap. |
+| [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) | 159,698 | +67 | +378 | JavaScript | Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发 |
+| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 75,066 | +1,484 | +7,836 | Python | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs. |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 154,343 | +3,068 | +16,348 | Python | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store. |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | 198,789 | +1,501 | +6,032 | Python | Python tool for converting files and office documents to Markdown. |
+| [langgenius/dify](https://github.com/langgenius/dify) | 162,037 | +442 | +2,177 | Python | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack. |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 159,703 | +518 | +2,609 | Svelte | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) |
+| [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 122,414 | +2,987 | +17,704 | JavaScript | Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 157,711 | +1,635 | +7,894 | Rust | A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 150,092 | +106 | +1,437 | Python | The agent engineering platform. |
+| [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 117,650 | +2,111 | +9,298 | TypeScript | The open-source app everyone uses to manage agents at work |
+| [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 145,982 | +745 | +2,622 | Python | 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source. |
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 123,958 | +638 | +5,982 | TypeScript | TradingAgents: Towards Agentic Finance Research |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 120,263 | +1,563 | +16,176 | TypeScript | Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 91,656 | +4,106 | +16,781 | TypeScript | Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen. |
+| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 106,524 | +1,821 | +16,289 | Python | 🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev |
 
 ## LLM & RAG
 
@@ -55,31 +55,31 @@ AI Agent、工具调用、MCP 与自动化工作流 · 前 25 个项目
 
 | 仓库 | Stars | 7天 | 30天 | 语言 | 简介 |
 |---|---:|---:|---:|---|---|
-| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 124,373 | +494 | +2,074 | Jupyter Notebook | 21 Lessons, Get Started Building with Generative AI |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | 169,389 | +85 | +1,123 | Python | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. |
-| [f/prompts.chat](https://github.com/f/prompts.chat) | 178,633 | +707 | +3,785 | MDX | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. |
-| [ollama/ollama](https://github.com/ollama/ollama) | 188,274 | +581 | +3,225 | Go | Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. |
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 145,907 | +1,156 | +10,000 | Python | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 97,671 | +429 | +1,944 | Python | A high-throughput and memory-efficient inference and serving engine for LLMs |
-| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 71,882 | +4,727 | +7,368 | Python | 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours. |
-| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 109,108 | +426 | +1,692 | Jupyter Notebook | Implement a ChatGPT-like LLM in PyTorch from scratch, step by step |
-| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 93,352 | +421 | +1,529 | Python | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages. |
-| [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | 58,317 | +29 | +87 | Python | Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export. |
-| [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | 58,749 | +954 | +4,541 | Python | Academic Research Skills for Claude Code: research → write → review → revise → finalize |
-| [p-e-w/heretic](https://github.com/p-e-w/heretic) | 43,373 | +1,127 | +6,540 | Python | Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more |
-| [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 67,804 | +29 | +198 | Python | 🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠 |
-| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | 36,493 | +1,046 | +4,804 | JavaScript | Uncensored AI Image & Video Generator — Free AI image & video generation studio with 800+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed. |
-| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 55,573 | +223 | +855 | C++ | Port of OpenAI's Whisper model in C/C++ |
-| [sgl-project/sglang](https://github.com/sgl-project/sglang) | 39,119 | +253 | +826 | Python | SGLang is a high-performance serving framework for large language models and multimodal models. |
-| [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) | 42,635 | +651 | +3,161 | TypeScript | An AI prompt optimizer for writing better prompts and getting better AI results. |
-| [lyogavin/airllm](https://github.com/lyogavin/airllm) | 43,513 | +772 | +2,496 | Jupyter Notebook | AirLLM 2.8T LLM inference with single 4GB GPU |
-| [ray-project/ray](https://github.com/ray-project/ray) | 44,391 | +46 | +251 | Python | Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads. |
-| [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | 48,689 | +324 | +1,520 | Python | A community-supported supercharged document management system: scan, index and archive all your documents |
-| [janhq/jan](https://github.com/janhq/jan) | 46,225 | +332 | +1,102 | Rust | Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. |
-| [pathwaycom/serviette](https://github.com/pathwaycom/serviette) | 58,673 | +0 | +0 | Python | A no-code RAG server that keeps answers in sync with your documents. Works with 8 vector databases. Built on Pathway. |
-| [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | 36,134 | +280 | +1,103 | JavaScript | LLM Frontend for Power Users. |
-| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 40,894 | +109 | +521 | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
-| [milvus-io/milvus](https://github.com/milvus-io/milvus) | 46,750 | +47 | +243 | Go | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search |
+| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 124,453 | +525 | +2,084 | Jupyter Notebook | 21 Lessons, Get Started Building with Generative AI |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | 169,316 | +0 | +998 | Python | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | 178,726 | +640 | +3,752 | MDX | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy. |
+| [ollama/ollama](https://github.com/ollama/ollama) | 188,343 | +559 | +3,186 | Go | Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 146,044 | +1,183 | +9,877 | Python | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 97,730 | +437 | +1,921 | Python | A high-throughput and memory-efficient inference and serving engine for LLMs |
+| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 72,315 | +4,510 | +7,744 | Python | 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours. |
+| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 109,168 | +439 | +1,705 | Jupyter Notebook | Implement a ChatGPT-like LLM in PyTorch from scratch, step by step |
+| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 93,407 | +448 | +1,510 | Python | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages. |
+| [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | 58,321 | +31 | +88 | Python | Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export. |
+| [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | 58,892 | +987 | +4,497 | Python | Academic Research Skills for Claude Code: research → write → review → revise → finalize |
+| [p-e-w/heretic](https://github.com/p-e-w/heretic) | 43,494 | +1,106 | +6,478 | Python | Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more |
+| [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 67,804 | +25 | +201 | Python | 🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠 |
+| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | 36,607 | +1,041 | +4,853 | JavaScript | Uncensored AI Image & Video Generator — Free AI image & video generation studio with 800+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed. |
+| [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) | 55,591 | +210 | +843 | C++ | Port of OpenAI's Whisper model in C/C++ |
+| [sgl-project/sglang](https://github.com/sgl-project/sglang) | 39,145 | +253 | +813 | Python | SGLang is a high-performance serving framework for large language models and multimodal models. |
+| [lyogavin/airllm](https://github.com/lyogavin/airllm) | 43,572 | +782 | +2,432 | Jupyter Notebook | AirLLM 2.8T LLM inference with single 4GB GPU |
+| [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) | 42,690 | +615 | +3,066 | TypeScript | An AI prompt optimizer for writing better prompts and getting better AI results. |
+| [ray-project/ray](https://github.com/ray-project/ray) | 44,394 | +43 | +245 | Python | Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads. |
+| [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | 48,728 | +308 | +1,474 | Python | A community-supported supercharged document management system: scan, index and archive all your documents |
+| [pathwaycom/serviette](https://github.com/pathwaycom/serviette) | 58,666 | +0 | +0 | Python | A no-code RAG server that keeps answers in sync with your documents. Works with 8 vector databases. Built on Pathway. |
+| [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | 36,169 | +278 | +1,094 | JavaScript | LLM Frontend for Power Users. |
+| [janhq/jan](https://github.com/janhq/jan) | 46,252 | +281 | +1,120 | Rust | Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. |
+| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 40,917 | +122 | +513 | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
+| [milvus-io/milvus](https://github.com/milvus-io/milvus) | 46,753 | +43 | +235 | Go | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search |
 
 ## Developer Tools
 
@@ -87,31 +87,31 @@ AI Agent、工具调用、MCP 与自动化工作流 · 前 25 个项目
 
 | 仓库 | Stars | 7天 | 30天 | 语言 | 简介 |
 |---|---:|---:|---:|---|---|
-| [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | 98,963 | +623 | +1,652 | Python | real time face swap and one-click video deepfake with only a single image |
-| [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | 84,999 | +108 | +1,213 | — | List of Computer Science courses with video lectures. |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | 51,737 | +61 | +346 | Python | We write your reusable computer vision tools. 💜 |
-| [huggingface/diffusers](https://github.com/huggingface/diffusers) | 34,984 | +28 | +162 | Python | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. |
-| [The-Art-of-Hacking/h4cker](https://github.com/The-Art-of-Hacking/h4cker) | 30,400 | +129 | +463 | Jupyter Notebook | This repository is maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), AI security, vulnerability research, exploit development, reverse engineering, and more. 🔥 Also check: https://hackertraining.org |
-| [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 29,168 | +40 | +274 | TypeScript | Invoke is a leading creative engine that uses image and video generation models to empower professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry-leading application interface, and serves as the foundation for multiple commercial products. |
-| [MaaAssistantArknights/MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights) | 24,804 | +142 | +761 | C++ | 《明日方舟》小助手，全日常一键长草！\| A one-click tool for the daily tasks of Arknights, supporting all clients. |
-| [cvat-ai/cvat](https://github.com/cvat-ai/cvat) | 17,213 | +37 | +191 | Python | CVAT is a leading data annotation platform for image, video, audio, and 3D datasets. It offers open-source, cloud, and enterprise products, as well as labeling services, with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs. |
-| [mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse) | 25,555 | +17 | +106 | C# | Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics |
-| [jub0t/Concat](https://github.com/jub0t/Concat) | 21,917 | +0 | +0 | Rust | The open-source CapCut alternative. |
-| [wkentaro/labelme](https://github.com/wkentaro/labelme) | 16,348 | +6 | +100 | Python | Image annotation with Python. Supports polygon, rectangle, circle, line, point, and AI-assisted annotation. |
-| [owainlewis/awesome-artificial-intelligence](https://github.com/owainlewis/awesome-artificial-intelligence) | 16,897 | +38 | +161 | Python | A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers. |
-| [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) | 16,149 | +4 | +20 | Shell | A curated list for awesome kubernetes sources :ship::tada: |
-| [alphacep/vosk-api](https://github.com/alphacep/vosk-api) | 15,296 | +21 | +89 | Jupyter Notebook | Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node |
-| [mlfoundations/open_clip](https://github.com/mlfoundations/open_clip) | 14,293 | +15 | +64 | Python | An open source implementation of CLIP. |
-| [openframeworks/openFrameworks](https://github.com/openframeworks/openFrameworks) | 10,476 | +8 | +19 | C++ | openFrameworks is a community-developed cross platform toolkit for creative coding in C++. |
-| [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) | 13,704 | +57 | +272 | TypeScript | 🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more. |
-| [Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video) | 11,506 | +64 | +0 | Python | Official repository for LTX-Video |
-| [CVHub520/X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling) | 11,043 | +48 | +214 | Python | X-AnyLabeling: A lightweight, efficient, and unified cross-platform desktop application for annotating text, image, video, point cloud and multimodal data, combining versatile built-in tools with state-of-the-art AI models and flexible multi-format export. |
-| [QwenAudio/SenseVoice](https://github.com/QwenAudio/SenseVoice) | 9,829 | +36 | +215 | C | Open-source SenseVoiceSmall model for Mandarin, Cantonese, English, Japanese, and Korean ASR, language ID, emotion recognition, and audio event detection. |
-| [Inkloom-art/inkloom](https://github.com/Inkloom-art/inkloom) | 3,206 | +0 | +544 | TypeScript | Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open. |
+| [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | 98,979 | +471 | +1,620 | Python | real time face swap and one-click video deepfake with only a single image |
+| [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | 85,009 | +109 | +824 | — | List of Computer Science courses with video lectures. |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | 51,746 | +66 | +329 | Python | We write your reusable computer vision tools. 💜 |
+| [huggingface/diffusers](https://github.com/huggingface/diffusers) | 34,985 | +23 | +157 | Python | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. |
+| [The-Art-of-Hacking/h4cker](https://github.com/The-Art-of-Hacking/h4cker) | 30,414 | +130 | +464 | Jupyter Notebook | This repository is maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), AI security, vulnerability research, exploit development, reverse engineering, and more. 🔥 Also check: https://hackertraining.org |
+| [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 29,177 | +44 | +266 | TypeScript | Invoke is a leading creative engine that uses image and video generation models to empower professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry-leading application interface, and serves as the foundation for multiple commercial products. |
+| [MaaAssistantArknights/MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights) | 24,816 | +131 | +741 | C++ | 《明日方舟》小助手，全日常一键长草！\| A one-click tool for the daily tasks of Arknights, supporting all clients. |
+| [jub0t/Concat](https://github.com/jub0t/Concat) | 22,546 | +0 | +0 | Rust | The open-source CapCut alternative. |
+| [cvat-ai/cvat](https://github.com/cvat-ai/cvat) | 17,221 | +42 | +193 | Python | CVAT is a leading data annotation platform for image, video, audio, and 3D datasets. It offers open-source, cloud, and enterprise products, as well as labeling services, with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs. |
+| [mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse) | 25,554 | +9 | +100 | C# | Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics |
+| [wkentaro/labelme](https://github.com/wkentaro/labelme) | 16,349 | +5 | +101 | Python | Image annotation with Python. Supports polygon, rectangle, circle, line, point, and AI-assisted annotation. |
+| [owainlewis/awesome-artificial-intelligence](https://github.com/owainlewis/awesome-artificial-intelligence) | 16,900 | +38 | +158 | Python | A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers. |
+| [ramitsurana/awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) | 16,150 | +6 | +20 | Shell | A curated list for awesome kubernetes sources :ship::tada: |
+| [alphacep/vosk-api](https://github.com/alphacep/vosk-api) | 15,294 | +16 | +84 | Jupyter Notebook | Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node |
+| [mlfoundations/open_clip](https://github.com/mlfoundations/open_clip) | 14,295 | +17 | +62 | Python | An open source implementation of CLIP. |
+| [openframeworks/openFrameworks](https://github.com/openframeworks/openFrameworks) | 10,477 | +8 | +21 | C++ | openFrameworks is a community-developed cross platform toolkit for creative coding in C++. |
+| [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) | 13,703 | +51 | +256 | TypeScript | 🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more. |
+| [Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video) | 11,515 | +69 | +0 | Python | Official repository for LTX-Video |
+| [CVHub520/X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling) | 11,051 | +49 | +212 | Python | X-AnyLabeling: A lightweight, efficient, and unified cross-platform desktop application for annotating text, image, video, point cloud and multimodal data, combining versatile built-in tools with state-of-the-art AI models and flexible multi-format export. |
+| [QwenAudio/SenseVoice](https://github.com/QwenAudio/SenseVoice) | 9,834 | +38 | +212 | C | Open-source SenseVoiceSmall model for Mandarin, Cantonese, English, Japanese, and Korean ASR, language ID, emotion recognition, and audio event detection. |
+| [Inkloom-art/inkloom](https://github.com/Inkloom-art/inkloom) | 3,205 | +0 | +475 | TypeScript | Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open. |
 | [showlab/Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion) | 5,854 | +9 | +34 | — | A curated list of recent diffusion models for video generation, editing, and various other applications. |
-| [lxf746/any-auto-register](https://github.com/lxf746/any-auto-register) | 3,461 | +9 | +60 | Python | Auto-register & manage accounts for ChatGPT, Cursor, Kiro, Grok, Windsurf, Trae & 13+ AI platforms · Protocol/browser dual-mode · Plugin-based · One-click Mac/Windows desktop app |
-| [dmMaze/BallonsTranslator](https://github.com/dmMaze/BallonsTranslator) | 5,322 | +8 | +83 | Python | 深度学习辅助漫画翻译工具, 支持一键机翻和简单的图像/文本编辑 \| Yet another computer-aided comic/manga translation tool powered by deeplearning |
-| [ai-for-developers/awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools) | 2,307 | +8 | +102 | — | A curated list of AI-powered coding tools |
+| [lxf746/any-auto-register](https://github.com/lxf746/any-auto-register) | 3,462 | +10 | +59 | Python | Auto-register & manage accounts for ChatGPT, Cursor, Kiro, Grok, Windsurf, Trae & 13+ AI platforms · Protocol/browser dual-mode · Plugin-based · One-click Mac/Windows desktop app |
+| [dmMaze/BallonsTranslator](https://github.com/dmMaze/BallonsTranslator) | 5,325 | +10 | +83 | Python | 深度学习辅助漫画翻译工具, 支持一键机翻和简单的图像/文本编辑 \| Yet another computer-aided comic/manga translation tool powered by deeplearning |
+| [ai-for-developers/awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools) | 2,309 | +7 | +103 | — | A curated list of AI-powered coding tools |
 
 ## Frameworks & Infrastructure
 
@@ -119,31 +119,31 @@ AI Agent、工具调用、MCP 与自动化工作流 · 前 25 个项目
 
 | 仓库 | Stars | 7天 | 30天 | 语言 | 简介 |
 |---|---:|---:|---:|---|---|
-| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 201,868 | +211 | +553 | C++ | An Open Source Machine Learning Framework for Everyone |
-| [pytorch/pytorch](https://github.com/pytorch/pytorch) | 105,802 | +72 | +665 | Python | Tensors and Dynamic neural networks in Python with strong GPU acceleration |
-| [apache/airflow](https://github.com/apache/airflow) | 47,700 | +134 | +409 | Python | Apache Airflow - A platform to programmatically author, schedule, and monitor workflows |
-| [dmlc/xgboost](https://github.com/dmlc/xgboost) | 29,018 | +11 | +101 | C++ | Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow |
-| [fastai/fastai](https://github.com/fastai/fastai) | 28,284 | +12 | +43 | Jupyter Notebook | The fastai deep learning library |
-| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31,467 | +0 | +36 | Python | Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes. |
-| [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | 24,157 | +11 | +23 | C++ | PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署） |
-| [recommenders-team/recommenders](https://github.com/recommenders-team/recommenders) | 22,012 | +5 | +44 | Python | Best Practices on Recommendation Systems |
-| [lightgbm-org/LightGBM](https://github.com/lightgbm-org/LightGBM) | 19,018 | +24 | +84 | C++ | A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks. |
-| [EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) | 21,127 | +13 | +81 | — | A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning |
-| [ty4z2008/Qix](https://github.com/ty4z2008/Qix) | 15,249 | +0 | +20 | — | Machine Learning、Deep Learning、PostgreSQL、Distributed System、Node.Js、Golang |
-| [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17,124 | +17 | +64 | Go | Workflow Engine for Kubernetes |
-| [apache/tvm](https://github.com/apache/tvm) | 13,924 | +11 | +55 | Python | Open Machine Learning Compiler Framework |
-| [deeplearning4j/deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) | 14,287 | +5 | +13 | Java | Suite of tools for deploying and training deep learning models using the JVM. Highlights include model import for keras, tensorflow, and onnx/pytorch, a modular and tiny c++ library for running math code and a java based math library on top of the core c++ library. Also includes samediff: a pytorch/tensorflow like library for running deep learn... |
-| [DataTalksClub/machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp) | 15,033 | +44 | +0 | Jupyter Notebook | Learn ML engineering for free in 4 months! Register here 👇🏼 |
-| [DataTalksClub/mlops-zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp) | 15,606 | +22 | +0 | Jupyter Notebook | Free MLOps course from DataTalks.Club. Register here 👇🏼 to get notified about the next cohort |
-| [tensorflow/tfjs](https://github.com/tensorflow/tfjs) | 19,155 | +0 | +1 | TypeScript | A WebGL accelerated JavaScript library for training and deploying ML models. |
-| [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16,359 | +49 | +178 | Rust | Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability. |
-| [optuna/optuna](https://github.com/optuna/optuna) | 15,091 | +25 | +0 | Python | A hyperparameter optimization framework |
-| [spring-projects/spring-ai](https://github.com/spring-projects/spring-ai) | 9,693 | +31 | +96 | Java | An Application Framework for AI Engineering |
-| [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) | 10,871 | +10 | +23 | C++ | WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices. |
-| [mage-ai/mage-ai](https://github.com/mage-ai/mage-ai) | 8,851 | +1 | +14 | Python | 🧙 Build, run, and manage data pipelines for integrating and transforming data. |
-| [aldegad/sprite-gen](https://github.com/aldegad/sprite-gen) | 4,322 | +164 | +1,246 | Python | Generate clean 2D game sprites & animation atlases — component-row pipeline: state rows, alpha cleanup, frame extraction, runtime atlases. Codex/Claude skill. |
-| [flwrlabs/flower](https://github.com/flwrlabs/flower) | 7,226 | +10 | +39 | Python | Flower: A Friendly Federated AI Framework |
-| [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 6,854 | +102 | +339 | Rust | ML-powered manga translator, written in Rust. |
+| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 201,729 | +62 | +440 | C++ | An Open Source Machine Learning Framework for Everyone |
+| [pytorch/pytorch](https://github.com/pytorch/pytorch) | 105,694 | +0 | +533 | Python | Tensors and Dynamic neural networks in Python with strong GPU acceleration |
+| [apache/airflow](https://github.com/apache/airflow) | 47,720 | +137 | +416 | Python | Apache Airflow - A platform to programmatically author, schedule, and monitor workflows |
+| [dmlc/xgboost](https://github.com/dmlc/xgboost) | 29,020 | +12 | +100 | C++ | Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow |
+| [fastai/fastai](https://github.com/fastai/fastai) | 28,282 | +10 | +37 | Jupyter Notebook | The fastai deep learning library |
+| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31,466 | +0 | +31 | Python | Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes. |
+| [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | 24,156 | +7 | +23 | C++ | PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署） |
+| [recommenders-team/recommenders](https://github.com/recommenders-team/recommenders) | 22,015 | +6 | +45 | Python | Best Practices on Recommendation Systems |
+| [lightgbm-org/LightGBM](https://github.com/lightgbm-org/LightGBM) | 19,020 | +25 | +82 | C++ | A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks. |
+| [EthicalML/awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning) | 21,128 | +6 | +79 | — | A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning |
+| [ty4z2008/Qix](https://github.com/ty4z2008/Qix) | 15,249 | +0 | +17 | — | Machine Learning、Deep Learning、PostgreSQL、Distributed System、Node.Js、Golang |
+| [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | 17,127 | +19 | +61 | Go | Workflow Engine for Kubernetes |
+| [apache/tvm](https://github.com/apache/tvm) | 13,925 | +7 | +50 | Python | Open Machine Learning Compiler Framework |
+| [deeplearning4j/deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) | 14,288 | +5 | +14 | Java | Suite of tools for deploying and training deep learning models using the JVM. Highlights include model import for keras, tensorflow, and onnx/pytorch, a modular and tiny c++ library for running math code and a java based math library on top of the core c++ library. Also includes samediff: a pytorch/tensorflow like library for running deep learn... |
+| [DataTalksClub/machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp) | 15,034 | +33 | +0 | Jupyter Notebook | Learn ML engineering for free in 4 months! Register here 👇🏼 |
+| [DataTalksClub/mlops-zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp) | 15,609 | +22 | +0 | Jupyter Notebook | Free MLOps course from DataTalks.Club. Register here 👇🏼 to get notified about the next cohort |
+| [tensorflow/tfjs](https://github.com/tensorflow/tfjs) | 19,156 | +0 | +1 | TypeScript | A WebGL accelerated JavaScript library for training and deploying ML models. |
+| [tracel-ai/burn](https://github.com/tracel-ai/burn) | 16,364 | +47 | +172 | Rust | Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability. |
+| [optuna/optuna](https://github.com/optuna/optuna) | 15,093 | +24 | +0 | Python | A hyperparameter optimization framework |
+| [spring-projects/spring-ai](https://github.com/spring-projects/spring-ai) | 9,694 | +32 | +93 | Java | An Application Framework for AI Engineering |
+| [WasmEdge/WasmEdge](https://github.com/WasmEdge/WasmEdge) | 10,872 | +9 | +23 | C++ | WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices. |
+| [mage-ai/mage-ai](https://github.com/mage-ai/mage-ai) | 8,851 | +1 | +12 | Python | 🧙 Build, run, and manage data pipelines for integrating and transforming data. |
+| [aldegad/sprite-gen](https://github.com/aldegad/sprite-gen) | 4,347 | +181 | +1,260 | Python | Generate clean 2D game sprites & animation atlases — component-row pipeline: state rows, alpha cleanup, frame extraction, runtime atlases. Codex/Claude skill. |
+| [flwrlabs/flower](https://github.com/flwrlabs/flower) | 7,227 | +11 | +36 | Python | Flower: A Friendly Federated AI Framework |
+| [koharu-rs/koharu](https://github.com/koharu-rs/koharu) | 6,864 | +106 | +333 | Rust | ML-powered manga translator, written in Rust. |
 
 ## Research & Papers
 
@@ -151,30 +151,30 @@ AI Agent、工具调用、MCP 与自动化工作流 · 前 25 个项目
 
 | 仓库 | Stars | 7天 | 30天 | 语言 | 简介 |
 |---|---:|---:|---:|---|---|
-| [google-research/google-research](https://github.com/google-research/google-research) | 39,541 | +304 | +498 | Jupyter Notebook | Google Research |
-| [microsoft/AirSim](https://github.com/microsoft/AirSim) | 18,639 | +19 | +61 | C++ | Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research |
-| [carla-simulator/carla](https://github.com/carla-simulator/carla) | 14,716 | +57 | +172 | C++ | Open-source simulator for autonomous driving research. |
-| [bharathgs/Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list) | 16,775 | +8 | +49 | — | A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc. |
+| [google-research/google-research](https://github.com/google-research/google-research) | 39,570 | +325 | +519 | Jupyter Notebook | Google Research |
+| [microsoft/AirSim](https://github.com/microsoft/AirSim) | 18,639 | +12 | +58 | C++ | Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research |
+| [carla-simulator/carla](https://github.com/carla-simulator/carla) | 14,719 | +51 | +170 | C++ | Open-source simulator for autonomous driving research. |
+| [bharathgs/Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list) | 16,774 | +5 | +45 | — | A comprehensive list of pytorch related content on github,such as different models,implementations,helper libraries,tutorials etc. |
 | [ritchieng/the-incredible-pytorch](https://github.com/ritchieng/the-incredible-pytorch) | 12,667 | +0 | +0 | — | The Incredible PyTorch: a curated list of tutorials, papers, projects, communities and more relating to PyTorch. |
-| [dair-ai/AI-Papers-of-the-Week](https://github.com/dair-ai/AI-Papers-of-the-Week) | 13,384 | +27 | +78 | — | 🔥Highlighting the top ML papers every week. |
-| [lucidrains/denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch) | 10,730 | +5 | +9 | Python | Implementation of Denoising Diffusion Probabilistic Model in Pytorch |
-| [microsoft/PyRIT](https://github.com/microsoft/PyRIT) | 5,134 | +165 | +431 | Python | Open-source AI red teaming toolkit from Microsoft. Test generative AI systems with automated scans, adaptive multi-turn attacks, and a web UI. |
-| [HenryNdubuaku/maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) | 7,743 | +19 | +69 | TypeScript | Become a cracked AI/ML researcher/engineer with this unconventional textbook covering maths, computing, and ML with intuition. |
+| [dair-ai/AI-Papers-of-the-Week](https://github.com/dair-ai/AI-Papers-of-the-Week) | 13,385 | +27 | +80 | — | 🔥Highlighting the top ML papers every week. |
+| [lucidrains/denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch) | 10,731 | +5 | +9 | Python | Implementation of Denoising Diffusion Probabilistic Model in Pytorch |
+| [microsoft/PyRIT](https://github.com/microsoft/PyRIT) | 5,158 | +159 | +449 | Python | Open-source AI red teaming toolkit from Microsoft. Test generative AI systems with automated scans, adaptive multi-turn attacks, and a web UI. |
+| [HenryNdubuaku/cognition-compendium](https://github.com/HenryNdubuaku/cognition-compendium) | 7,745 | +0 | +0 | Cuda | Become a cracked researcher/engineer with this unconventional textbook covering maths, computing, cognition, ML and Neuro. |
 | [flashlight/wav2letter](https://github.com/flashlight/wav2letter) | 6,443 | +0 | +1 | C++ | Facebook AI Research's Automatic Speech Recognition Toolkit |
-| [Astrosp/Awesome-OSINT-List](https://github.com/Astrosp/Awesome-OSINT-List) | 4,714 | +37 | +112 | Shell | 📡 Comprehensive collection of OSINT tools for cybersecurity professionals, researchers, and bug bounty hunters. Topics: information gathering, reverse search, red team, trust & safety, AI. |
-| [NVIDIAGameWorks/kaolin](https://github.com/NVIDIAGameWorks/kaolin) | 5,204 | +6 | +9 | Python | A PyTorch Library for Accelerating 3D Deep Learning Research |
-| [mujocolab/mjlab](https://github.com/mujocolab/mjlab) | 3,479 | +42 | +201 | Python | Isaac Lab API, powered by MuJoCo-Warp, for RL and robotics research |
+| [Astrosp/Awesome-OSINT-List](https://github.com/Astrosp/Awesome-OSINT-List) | 4,719 | +38 | +114 | Shell | 📡 Comprehensive collection of OSINT tools for cybersecurity professionals, researchers, and bug bounty hunters. Topics: information gathering, reverse search, red team, trust & safety, AI. |
+| [NVIDIAGameWorks/kaolin](https://github.com/NVIDIAGameWorks/kaolin) | 5,205 | +7 | +12 | Python | A PyTorch Library for Accelerating 3D Deep Learning Research |
+| [mujocolab/mjlab](https://github.com/mujocolab/mjlab) | 3,483 | +46 | +194 | Python | Isaac Lab API, powered by MuJoCo-Warp, for RL and robotics research |
 | [BoltzmannEntropy/interviews.ai](https://github.com/BoltzmannEntropy/interviews.ai) | 4,901 | +0 | +0 | — | It is my belief that you, the postgraduate students and job-seekers for whom the book is primarily meant will benefit from reading it; however, it is my hope that even the most experienced researchers will find it fascinating as well. |
-| [enactic/openarm](https://github.com/enactic/openarm) | 3,728 | +13 | +79 | MDX | A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments. |
-| [M-3LAB/awesome-industrial-anomaly-detection](https://github.com/M-3LAB/awesome-industrial-anomaly-detection) | 3,871 | +7 | +30 | — | Paper list and datasets for industrial image anomaly/defect detection (updating). 工业异常/瑕疵检测论文及数据集检索库(持续更新)。 |
-| [MLNLP-World/Top-AI-Conferences-Paper-with-Code](https://github.com/MLNLP-World/Top-AI-Conferences-Paper-with-Code) | 2,729 | +3 | +8 | — | MLNLP：本仓库整理人工智能会议（如 ACL、EMNLP、NAACL、COLING、AAAI、IJCAI、ICLR、NeurIPS、ICML 等）中开源代码的论文。 |
+| [enactic/openarm](https://github.com/enactic/openarm) | 3,730 | +16 | +77 | MDX | A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments. |
+| [M-3LAB/awesome-industrial-anomaly-detection](https://github.com/M-3LAB/awesome-industrial-anomaly-detection) | 3,872 | +6 | +30 | — | Paper list and datasets for industrial image anomaly/defect detection (updating). 工业异常/瑕疵检测论文及数据集检索库(持续更新)。 |
+| [MLNLP-World/Top-AI-Conferences-Paper-with-Code](https://github.com/MLNLP-World/Top-AI-Conferences-Paper-with-Code) | 2,731 | +5 | +9 | — | MLNLP：本仓库整理人工智能会议（如 ACL、EMNLP、NAACL、COLING、AAAI、IJCAI、ICLR、NeurIPS、ICML 等）中开源代码的论文。 |
 | [MaximeVandegar/Papers-in-100-Lines-of-Code](https://github.com/MaximeVandegar/Papers-in-100-Lines-of-Code) | 2,918 | +3 | +10 | Python | Implementation of papers in 100 lines of code. |
-| [wq2012/awesome-diarization](https://github.com/wq2012/awesome-diarization) | 1,918 | +1 | +5 | — | A curated list of awesome Speaker Diarization papers, libraries, datasets, and other resources. |
+| [wq2012/awesome-diarization](https://github.com/wq2012/awesome-diarization) | 1,917 | +0 | +3 | — | A curated list of awesome Speaker Diarization papers, libraries, datasets, and other resources. |
 | [opendilab/LightZero](https://github.com/opendilab/LightZero) | 1,663 | +0 | +6 | Python | [NeurIPS 2023 Spotlight] LightZero: A Unified Benchmark for Monte Carlo Tree Search in General Sequential Decision Scenarios (awesome MCTS) |
-| [Lakonik/LakonLab](https://github.com/Lakonik/LakonLab) | 609 | +97 | +132 | Python | Official implementation of pi-H3, AsymFlow, pi-Flow, GMFlow |
-| [open-thought/reasoning-gym](https://github.com/open-thought/reasoning-gym) | 1,557 | +2 | +0 | Python | [NeurIPS 2025 Spotlight] Reasoning Environments for Reinforcement Learning with Verifiable Rewards |
+| [Lakonik/LakonLab](https://github.com/Lakonik/LakonLab) | 612 | +96 | +135 | Python | Official implementation of pi-H3, AsymFlow, pi-Flow, GMFlow |
+| [open-thought/reasoning-gym](https://github.com/open-thought/reasoning-gym) | 1,557 | +1 | +0 | Python | [NeurIPS 2025 Spotlight] Reasoning Environments for Reinforcement Learning with Verifiable Rewards |
 | [guochengqian/Magic123](https://github.com/guochengqian/Magic123) | 1,621 | +0 | +0 | Jupyter Notebook | [ICLR'24] Official PyTorch Implementation of Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors |
-| [haidog-yaqub/MeanFlow](https://github.com/haidog-yaqub/MeanFlow) | 1,220 | +4 | +8 | Python | PyTorch implementation of MeanFlow & iMF (one-step generative modeling). |
+| [haidog-yaqub/MeanFlow](https://github.com/haidog-yaqub/MeanFlow) | 1,221 | +5 | +8 | Python | PyTorch implementation of MeanFlow & iMF (one-step generative modeling). |
 | [aimagelab/multimodal-garment-designer](https://github.com/aimagelab/multimodal-garment-designer) | 446 | +0 | +1 | Python | [ICCV 2023] This is the official repository for the paper "Multimodal Garment Designer: Human-Centric Latent Diffusion Models for Fashion Image Editing" |
 
 ## Data & Evaluation
@@ -183,14 +183,14 @@ AI Agent、工具调用、MCP 与自动化工作流 · 前 25 个项目
 
 | 仓库 | Stars | 7天 | 30天 | 语言 | 简介 |
 |---|---:|---:|---:|---|---|
-| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 28,775 | +43 | +207 | TypeScript | Label Studio is a multi-type data labeling and annotation tool with standardized output format |
-| [pytorch/vision](https://github.com/pytorch/vision) | 18,033 | +13 | +62 | Python | Datasets, Transforms and Models specific to Computer Vision |
-| [voxel51/fiftyone](https://github.com/voxel51/fiftyone) | 11,341 | +21 | +105 | TypeScript | Refine high-quality datasets and visual AI models |
-| [liuruoze/EasyPR](https://github.com/liuruoze/EasyPR) | 6,433 | +4 | +0 | C++ | (CGCSTCD'2017) An easy, flexible, and accurate plate recognition project for Chinese licenses in unconstrained situations. CGCSTCD = China Graduate Contest on Smart-city Technology and Creative Design |
-| [torchgeo/torchgeo](https://github.com/torchgeo/torchgeo) | 4,250 | +7 | +35 | Python | TorchGeo: datasets, samplers, transforms, and pre-trained models for geospatial data |
-| [sdv-dev/SDV](https://github.com/sdv-dev/SDV) | 3,611 | +5 | +26 | Python | Synthetic data generation for tabular data |
-| [RoboVerseOrg/RoboVerse](https://github.com/RoboVerseOrg/RoboVerse) | 1,883 | +0 | +7 | Python | RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning |
-| [Farama-Foundation/Minari](https://github.com/Farama-Foundation/Minari) | 1,735 | +0 | +0 | Python | A standard format for offline reinforcement learning datasets, with popular reference datasets and related utilities |
+| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | 28,780 | +43 | +202 | TypeScript | Label Studio is a multi-type data labeling and annotation tool with standardized output format |
+| [pytorch/vision](https://github.com/pytorch/vision) | 18,035 | +11 | +63 | Python | Datasets, Transforms and Models specific to Computer Vision |
+| [voxel51/fiftyone](https://github.com/voxel51/fiftyone) | 11,344 | +20 | +99 | TypeScript | Refine high-quality datasets and visual AI models |
+| [liuruoze/EasyPR](https://github.com/liuruoze/EasyPR) | 6,433 | +3 | +0 | C++ | (CGCSTCD'2017) An easy, flexible, and accurate plate recognition project for Chinese licenses in unconstrained situations. CGCSTCD = China Graduate Contest on Smart-city Technology and Creative Design |
+| [torchgeo/torchgeo](https://github.com/torchgeo/torchgeo) | 4,252 | +9 | +34 | Python | TorchGeo: datasets, samplers, transforms, and pre-trained models for geospatial data |
+| [sdv-dev/SDV](https://github.com/sdv-dev/SDV) | 3,612 | +5 | +26 | Python | Synthetic data generation for tabular data |
+| [RoboVerseOrg/RoboVerse](https://github.com/RoboVerseOrg/RoboVerse) | 1,883 | +2 | +6 | Python | RoboVerse: Towards a Unified Platform, Dataset and Benchmark for Scalable and Generalizable Robot Learning |
+| [Farama-Foundation/Minari](https://github.com/Farama-Foundation/Minari) | 1,733 | +0 | +0 | Python | A standard format for offline reinforcement learning datasets, with popular reference datasets and related utilities |
 
 ## Vision, Audio & Creative
 
@@ -198,31 +198,31 @@ AI Agent、工具调用、MCP 与自动化工作流 · 前 25 个项目
 
 | 仓库 | Stars | 7天 | 30天 | 语言 | 简介 |
 |---|---:|---:|---:|---|---|
-| [opencv/opencv](https://github.com/opencv/opencv) | 91,742 | +95 | +389 | C++ | Open Source Computer Vision Library |
-| [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 71,289 | +260 | +982 | Jupyter Notebook | 12 Weeks, 24 Lessons, AI for All! |
-| [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | 77,679 | +82 | +473 | C++ | Tesseract Open Source OCR Engine (main repository) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | 63,795 | +179 | +878 | Python | Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking |
-| [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) | 37,915 | +96 | +405 | — | 500 AI Machine learning Deep learning Computer vision NLP Projects with code |
-| [spmallick/learnopencv](https://github.com/spmallick/learnopencv) | 23,261 | +7 | +39 | Jupyter Notebook | Learn OpenCV : C++ and Python Examples |
-| [anomalyco/hex](https://github.com/anomalyco/hex) | 8,852 | +1,239 | +8,235 | Rust | Local voice dictation for mac, windows and linux |
-| [m-bain/whisperX](https://github.com/m-bain/whisperX) | 25,718 | +211 | +827 | Python | WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization) |
-| [deezer/spleeter](https://github.com/deezer/spleeter) | 28,544 | +6 | +49 | Python | Deezer source separation library including pretrained models. |
-| [Zeyi-Lin/HivisionIDPhotos](https://github.com/Zeyi-Lin/HivisionIDPhotos) | 21,787 | +48 | +118 | Python | ⚡️HivisionIDPhotos: a lightweight and efficient AI ID photos tools. 一个轻量级的AI证件照制作算法。 |
-| [PointCloudLibrary/pcl](https://github.com/PointCloudLibrary/pcl) | 11,236 | +6 | +41 | C++ | Point Cloud Library (PCL) |
-| [davisking/dlib](https://github.com/davisking/dlib) | 14,480 | +0 | +14 | C++ | A toolkit for making real world machine learning and data analysis applications in C++ |
-| [realsenseai/librealsense](https://github.com/realsenseai/librealsense) | 9,115 | +11 | +43 | C++ | RealSense SDK |
-| [kmario23/deep-learning-drizzle](https://github.com/kmario23/deep-learning-drizzle) | 13,001 | +8 | +28 | HTML | Drench yourself in Deep Learning, Reinforcement Learning, Machine Learning, Computer Vision, and NLP by learning from these exciting lectures!! |
-| [colmap/colmap](https://github.com/colmap/colmap) | 13,308 | +49 | +222 | C++ | COLMAP - Structure-from-Motion and Multi-View Stereo |
-| [kornia/kornia](https://github.com/kornia/kornia) | 12,435 | +39 | +984 | Python | 🐍 Geometric Computer Vision Library for Spatial AI |
-| [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro) | 13,472 | +14 | +93 | Python | Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual translation. |
-| [wquguru/cicada](https://github.com/wquguru/cicada) | 3,532 | +1,103 | +0 | Swift | 知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android. |
-| [espnet/espnet](https://github.com/espnet/espnet) | 10,024 | +3 | +28 | Python | End-to-End Speech Processing Toolkit |
-| [alicevision/Meshroom](https://github.com/alicevision/Meshroom) | 13,117 | +12 | +73 | Python | Node-based Visual Programming Toolbox |
+| [opencv/opencv](https://github.com/opencv/opencv) | 91,752 | +89 | +388 | C++ | Open Source Computer Vision Library |
+| [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 71,317 | +260 | +979 | Jupyter Notebook | 12 Weeks, 24 Lessons, AI for All! |
+| [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | 77,699 | +93 | +476 | C++ | Tesseract Open Source OCR Engine (main repository) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | 63,813 | +177 | +866 | Python | Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking |
+| [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) | 37,920 | +89 | +391 | — | 500 AI Machine learning Deep learning Computer vision NLP Projects with code |
+| [spmallick/learnopencv](https://github.com/spmallick/learnopencv) | 23,262 | +6 | +42 | Jupyter Notebook | Learn OpenCV : C++ and Python Examples |
+| [m-bain/whisperX](https://github.com/m-bain/whisperX) | 26,002 | +453 | +1,086 | Python | WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization) |
+| [deezer/spleeter](https://github.com/deezer/spleeter) | 28,544 | +3 | +51 | Python | Deezer source separation library including pretrained models. |
+| [Zeyi-Lin/HivisionIDPhotos](https://github.com/Zeyi-Lin/HivisionIDPhotos) | 21,793 | +51 | +119 | Python | ⚡️HivisionIDPhotos: a lightweight and efficient AI ID photos tools. 一个轻量级的AI证件照制作算法。 |
+| [PointCloudLibrary/pcl](https://github.com/PointCloudLibrary/pcl) | 11,236 | +6 | +36 | C++ | Point Cloud Library (PCL) |
+| [davisking/dlib](https://github.com/davisking/dlib) | 14,481 | +2 | +15 | C++ | A toolkit for making real world machine learning and data analysis applications in C++ |
+| [realsenseai/librealsense](https://github.com/realsenseai/librealsense) | 9,115 | +12 | +40 | C++ | RealSense SDK |
+| [kmario23/deep-learning-drizzle](https://github.com/kmario23/deep-learning-drizzle) | 13,001 | +6 | +28 | HTML | Drench yourself in Deep Learning, Reinforcement Learning, Machine Learning, Computer Vision, and NLP by learning from these exciting lectures!! |
+| [colmap/colmap](https://github.com/colmap/colmap) | 13,317 | +51 | +225 | C++ | COLMAP - Structure-from-Motion and Multi-View Stereo |
+| [kornia/kornia](https://github.com/kornia/kornia) | 12,450 | +48 | +998 | Python | 🐍 Geometric Computer Vision Library for Spatial AI |
+| [wquguru/cicada](https://github.com/wquguru/cicada) | 3,647 | +1,211 | +0 | Swift | 知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android. |
+| [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro) | 13,474 | +16 | +92 | Python | Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual translation. |
+| [espnet/espnet](https://github.com/espnet/espnet) | 10,027 | +5 | +29 | Python | End-to-End Speech Processing Toolkit |
+| [alicevision/Meshroom](https://github.com/alicevision/Meshroom) | 13,119 | +14 | +69 | Python | Node-based Visual Programming Toolbox |
 | [Uberi/speech_recognition](https://github.com/Uberi/speech_recognition) | 9,012 | +5 | +14 | Python | Speech recognition module for Python, supporting several engines and APIs, online and offline. |
-| [rerun-io/rerun](https://github.com/rerun-io/rerun) | 11,872 | +33 | +217 | Rust | Visualize, query, and stream to train on multimodal robotics data. |
-| [QuentinFuxa/WhisperLiveKit](https://github.com/QuentinFuxa/WhisperLiveKit) | 11,305 | +38 | +124 | Python | Real-time, local speech-to-text with streaming ASR, speaker diarization, translation, and OpenAI/Deepgram-compatible APIs. |
-| [autogluon/autogluon](https://github.com/autogluon/autogluon) | 10,848 | +9 | +50 | Python | Fast and Accurate ML in 3 Lines of Code |
-| [roboflow/notebooks](https://github.com/roboflow/notebooks) | 9,752 | +6 | +24 | Jupyter Notebook | A collection of tutorials on state-of-the-art computer vision models and techniques. Explore everything from foundational architectures like ResNet to cutting-edge models like RF-DETR, YOLO11, SAM 3, and Qwen3-VL. |
+| [rerun-io/rerun](https://github.com/rerun-io/rerun) | 11,875 | +28 | +214 | Rust | Visualize, query, and stream to train on multimodal robotics data. |
+| [QuentinFuxa/WhisperLiveKit](https://github.com/QuentinFuxa/WhisperLiveKit) | 11,307 | +35 | +121 | Python | Real-time, local speech-to-text with streaming ASR, speaker diarization, translation, and OpenAI/Deepgram-compatible APIs. |
+| [autogluon/autogluon](https://github.com/autogluon/autogluon) | 10,849 | +6 | +49 | Python | Fast and Accurate ML in 3 Lines of Code |
+| [roboflow/notebooks](https://github.com/roboflow/notebooks) | 9,753 | +5 | +24 | Jupyter Notebook | A collection of tutorials on state-of-the-art computer vision models and techniques. Explore everything from foundational architectures like ResNet to cutting-edge models like RF-DETR, YOLO11, SAM 3, and Qwen3-VL. |
+| [spencermountain/compromise](https://github.com/spencermountain/compromise) | 12,175 | +0 | +6 | JavaScript | modest natural-language processing |
 
 ## Interesting Applications
 
@@ -230,25 +230,25 @@ AI Agent、工具调用、MCP 与自动化工作流 · 前 25 个项目
 
 | 仓库 | Stars | 7天 | 30天 | 语言 | 简介 |
 |---|---:|---:|---:|---|---|
-| [deepfakes/faceswap](https://github.com/deepfakes/faceswap) | 57,641 | +27 | +46 | Python | Deepfakes Software For All |
-| [Usagi-org/ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor) | 21,039 | +763 | +5,782 | Python | 基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。 |
-| [gradio-app/gradio](https://github.com/gradio-app/gradio) | 44,165 | +69 | +243 | Python | Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! |
-| [academic/awesome-datascience](https://github.com/academic/awesome-datascience) | 30,378 | +29 | +130 | — | :memo: An awesome Data Science repository to learn and apply for real world problems. |
-| [photoprism/photoprism](https://github.com/photoprism/photoprism) | 40,484 | +15 | +114 | Go | AI-Powered Photos App 🌈💎✨ |
-| [shap/shap](https://github.com/shap/shap) | 25,900 | +25 | +64 | Jupyter Notebook | A game theoretic approach to explain the output of any machine learning model. |
-| [marimo-team/marimo](https://github.com/marimo-team/marimo) | 23,767 | +130 | +419 | Python | A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor. |
-| [bulletphysics/bullet3](https://github.com/bulletphysics/bullet3) | 14,910 | +33 | +88 | C++ | Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc. |
-| [amark/gun](https://github.com/amark/gun) | 19,169 | +5 | +11 | JavaScript | An open source cybersecurity protocol for syncing decentralized graph data. |
-| [miurla/morphic](https://github.com/miurla/morphic) | 9,366 | +24 | +158 | TypeScript | An AI-powered search engine with a generative UI |
-| [alirezamika/autoscraper](https://github.com/alirezamika/autoscraper) | 8,141 | +42 | +78 | Python | A Smart, Automatic, Fast and Lightweight Web Scraper for Python |
-| [CodeWithCJ/SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness) | 6,878 | +42 | +385 | TypeScript | SparkyFitness: Built for Families. Powered by AI. Track food, fitness, water, and health — together. |
-| [sindresorhus/awesome-chatgpt](https://github.com/sindresorhus/awesome-chatgpt) | 6,511 | +10 | +0 | — | 🤖 Awesome list for ChatGPT — an artificial intelligence chatbot developed by OpenAI [SUBMISSIONS ARE TEMPORARILY PAUSED BECAUSE OF TOO MANY LOW QUALITY SUBMISSIONS] |
-| [speedyapply/2027-AI-College-Jobs](https://github.com/speedyapply/2027-AI-College-Jobs) | 6,673 | +17 | +68 | — | 2027 AI/ML internship & new graduate job list updated daily |
-| [nguyenphutrong/quotio](https://github.com/nguyenphutrong/quotio) | 4,922 | +7 | +23 | Rust | Stop juggling AI accounts. Quotio is a beautiful native macOS menu bar app that unifies your Claude, Gemini, OpenAI, Qwen, and Antigravity subscriptions – with real-time quota tracking and smart auto-failover for AI coding tools like Claude Code, OpenCode, and Droid. |
+| [deepfakes/faceswap](https://github.com/deepfakes/faceswap) | 57,640 | +15 | +47 | Python | Deepfakes Software For All |
+| [Usagi-org/ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor) | 21,118 | +808 | +5,826 | Python | 基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。 |
+| [gradio-app/gradio](https://github.com/gradio-app/gradio) | 44,176 | +67 | +237 | Python | Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! |
+| [academic/awesome-datascience](https://github.com/academic/awesome-datascience) | 30,379 | +28 | +132 | — | :memo: An awesome Data Science repository to learn and apply for real world problems. |
+| [photoprism/photoprism](https://github.com/photoprism/photoprism) | 40,486 | +19 | +113 | Go | AI-Powered Photos App 🌈💎✨ |
+| [shap/shap](https://github.com/shap/shap) | 25,900 | +18 | +64 | Jupyter Notebook | A game theoretic approach to explain the output of any machine learning model. |
+| [marimo-team/marimo](https://github.com/marimo-team/marimo) | 23,779 | +120 | +417 | Python | A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor. |
+| [bulletphysics/bullet3](https://github.com/bulletphysics/bullet3) | 14,911 | +32 | +86 | C++ | Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc. |
+| [amark/gun](https://github.com/amark/gun) | 19,169 | +3 | +11 | JavaScript | An open source cybersecurity protocol for syncing decentralized graph data. |
+| [miurla/morphic](https://github.com/miurla/morphic) | 9,370 | +24 | +160 | TypeScript | An AI-powered search engine with a generative UI |
+| [alirezamika/autoscraper](https://github.com/alirezamika/autoscraper) | 8,144 | +42 | +79 | Python | A Smart, Automatic, Fast and Lightweight Web Scraper for Python |
+| [CodeWithCJ/SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness) | 6,882 | +40 | +379 | TypeScript | SparkyFitness: Built for Families. Powered by AI. Track food, fitness, water, and health — together. |
+| [sindresorhus/awesome-chatgpt](https://github.com/sindresorhus/awesome-chatgpt) | 6,511 | +8 | +0 | — | 🤖 Awesome list for ChatGPT — an artificial intelligence chatbot developed by OpenAI [SUBMISSIONS ARE TEMPORARILY PAUSED BECAUSE OF TOO MANY LOW QUALITY SUBMISSIONS] |
+| [speedyapply/2027-AI-College-Jobs](https://github.com/speedyapply/2027-AI-College-Jobs) | 6,672 | +15 | +66 | — | 2027 AI/ML internship & new graduate job list updated daily |
+| [nguyenphutrong/quotio](https://github.com/nguyenphutrong/quotio) | 4,923 | +6 | +23 | Rust | Stop juggling AI accounts. Quotio is a beautiful native macOS menu bar app that unifies your Claude, Gemini, OpenAI, Qwen, and Antigravity subscriptions – with real-time quota tracking and smart auto-failover for AI coding tools like Claude Code, OpenCode, and Droid. |
 | [tensorforce/tensorforce](https://github.com/tensorforce/tensorforce) | 3,302 | +0 | +0 | Python | Tensorforce: a TensorFlow library for applied reinforcement learning |
-| [Farama-Foundation/ViZDoom](https://github.com/Farama-Foundation/ViZDoom) | 2,114 | +3 | +11 | C++ | Reinforcement Learning environments based on the 1993 game Doom :godmode: |
-| [zslucky/awesome-AI-books](https://github.com/zslucky/awesome-AI-books) | 1,848 | +7 | +15 | Jupyter Notebook | Some awesome AI related books and pdfs for learning and downloading, also apply some playground models for learning |
-| [openilink/openilink-hub](https://github.com/openilink/openilink-hub) | 1,619 | +4 | +20 | Go | 开源微信 Bot 管理平台 + App 应用市场 \| Self-hosted WeChat Bot Platform with App Marketplace \| Lark · Slack · Discord · DingTalk · GitHub · Notion · 20+ Apps \| AI Tools \| 7 Language SDKs |
+| [Farama-Foundation/ViZDoom](https://github.com/Farama-Foundation/ViZDoom) | 2,114 | +3 | +10 | C++ | Reinforcement Learning environments based on the 1993 game Doom :godmode: |
+| [zslucky/awesome-AI-books](https://github.com/zslucky/awesome-AI-books) | 1,848 | +6 | +15 | Jupyter Notebook | Some awesome AI related books and pdfs for learning and downloading, also apply some playground models for learning |
+| [openilink/openilink-hub](https://github.com/openilink/openilink-hub) | 1,622 | +7 | +23 | Go | 开源微信 Bot 管理平台 + App 应用市场 \| Self-hosted WeChat Bot Platform with App Marketplace \| Lark · Slack · Discord · DingTalk · GitHub · Notion · 20+ Apps \| AI Tools \| 7 Language SDKs |
 | [elastic/elastic-labs](https://github.com/elastic/elastic-labs) | 1,140 | +0 | +0 | Jupyter Notebook | Notebooks & Example Apps for Search, Observability, and Security with Elasticsearch |
 
 ## Awesome & Guides
@@ -257,16 +257,16 @@ Awesome 列表、教程与学习资源 · 前 14 个项目
 
 | 仓库 | Stars | 7天 | 30天 | 语言 | 简介 |
 |---|---:|---:|---:|---|---|
-| [aymericdamien/TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) | 43,731 | +0 | +0 | Jupyter Notebook | TensorFlow Tutorial and Examples for Beginners (support TF v1 & v2) |
-| [fengdu78/Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) | 38,168 | +29 | +131 | HTML | 吴恩达老师的机器学习课程个人笔记 |
-| [MLEveryday/100-Days-Of-ML-Code](https://github.com/MLEveryday/100-Days-Of-ML-Code) | 22,234 | +0 | +1 | Python | 100-Days-Of-ML-Code中文版 |
-| [mrdbourke/pytorch-deep-learning](https://github.com/mrdbourke/pytorch-deep-learning) | 19,487 | +47 | +197 | Jupyter Notebook | Materials for the Learn PyTorch for Deep Learning: Zero to Mastery course. |
-| [keon/awesome-nlp](https://github.com/keon/awesome-nlp) | 19,185 | +11 | +80 | — | :book: A curated list of resources dedicated to Natural Language Processing (NLP) |
-| [lazyprogrammer/machine_learning_examples](https://github.com/lazyprogrammer/machine_learning_examples) | 8,951 | +4 | +9 | Python | A collection of machine learning examples and tutorials. |
-| [MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning) | 18,602 | +49 | +258 | MATLAB | This is the homepage of a new book entitled "Mathematical Foundations of Reinforcement Learning." |
-| [yandexdataschool/Practical_RL](https://github.com/yandexdataschool/Practical_RL) | 6,623 | +2 | +26 | Jupyter Notebook | A course in reinforcement learning in the wild |
-| [ombharatiya/FAANG-Coding-Interview-Questions](https://github.com/ombharatiya/FAANG-Coding-Interview-Questions) | 6,170 | +7 | +70 | — | A curated List of Coding Questions Asked in FAANG Interviews |
-| [huggingface/deep-rl-class](https://github.com/huggingface/deep-rl-class) | 5,106 | +8 | +32 | MDX | This repo contains the Hugging Face Deep Reinforcement Learning Course. |
+| [aymericdamien/TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) | 43,730 | +0 | +0 | Jupyter Notebook | TensorFlow Tutorial and Examples for Beginners (support TF v1 & v2) |
+| [fengdu78/Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) | 38,170 | +27 | +128 | HTML | 吴恩达老师的机器学习课程个人笔记 |
+| [MLEveryday/100-Days-Of-ML-Code](https://github.com/MLEveryday/100-Days-Of-ML-Code) | 22,236 | +0 | +3 | Python | 100-Days-Of-ML-Code中文版 |
+| [mrdbourke/pytorch-deep-learning](https://github.com/mrdbourke/pytorch-deep-learning) | 19,493 | +50 | +196 | Jupyter Notebook | Materials for the Learn PyTorch for Deep Learning: Zero to Mastery course. |
+| [keon/awesome-nlp](https://github.com/keon/awesome-nlp) | 19,189 | +13 | +78 | — | :book: A curated list of resources dedicated to Natural Language Processing (NLP) |
+| [lazyprogrammer/machine_learning_examples](https://github.com/lazyprogrammer/machine_learning_examples) | 8,951 | +2 | +7 | Python | A collection of machine learning examples and tutorials. |
+| [MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning) | 18,607 | +50 | +257 | MATLAB | This is the homepage of a new book entitled "Mathematical Foundations of Reinforcement Learning." |
+| [yandexdataschool/Practical_RL](https://github.com/yandexdataschool/Practical_RL) | 6,624 | +3 | +26 | Jupyter Notebook | A course in reinforcement learning in the wild |
+| [ombharatiya/FAANG-Coding-Interview-Questions](https://github.com/ombharatiya/FAANG-Coding-Interview-Questions) | 6,173 | +9 | +74 | — | A curated List of Coding Questions Asked in FAANG Interviews |
+| [huggingface/deep-rl-class](https://github.com/huggingface/deep-rl-class) | 5,106 | +9 | +28 | MDX | This repo contains the Hugging Face Deep Reinforcement Learning Course. |
 | [Curt-Park/rainbow-is-all-you-need](https://github.com/Curt-Park/rainbow-is-all-you-need) | 2,039 | +1 | +3 | Python | Rainbow is all you need! A step-by-step tutorial from DQN to Rainbow |
 | [ivan-bilan/The-NLP-Pandect](https://github.com/ivan-bilan/The-NLP-Pandect) | 2,043 | +0 | +0 | Python | A comprehensive reference for all topics related to Natural Language Processing |
 | [totogo/awesome-knowledge-graph](https://github.com/totogo/awesome-knowledge-graph) | 1,909 | +0 | +4 | — | A curated list of Knowledge Graph related learning materials, databases, tools and other resources |
@@ -278,28 +278,28 @@ Awesome 列表、教程与学习资源 · 前 14 个项目
 
 | 仓库 | Stars | 7天 | 30天 | 语言 | 简介 |
 |---|---:|---:|---:|---|---|
-| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | 129,204 | +602 | +2,453 | TypeScript | Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own. |
-| [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) | 92,510 | +174 | +706 | Jupyter Notebook | 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all |
-| [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 68,355 | +95 | +386 | Python | scikit-learn: machine learning in Python |
-| [keras-team/keras](https://github.com/keras-team/keras) | 64,455 | +14 | +63 | Python | Deep Learning for humans |
-| [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) | 56,923 | +10 | +66 | Python | The world's simplest facial recognition api for Python and the command line |
-| [hankcs/HanLP](https://github.com/hankcs/HanLP) | 36,543 | +4 | +10 | Python | 中文分词 词性标注 命名实体识别 依存句法分析 成分句法分析 语义依存分析 语义角色标注 指代消解 风格转换 语义相似度 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁转换 自然语言处理 |
-| [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49,310 | +29 | +93 | Julia | The Julia Programming Language |
-| [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) | 34,925 | +30 | +111 | C++ | Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes. |
-| [fastai/fastbook](https://github.com/fastai/fastbook) | 25,520 | +22 | +93 | Jupyter Notebook | The fastai book, published as Jupyter Notebooks |
-| [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | 35,997 | +278 | +1,498 | Python | Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request. |
-| [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | 31,850 | +159 | +886 | Rust | Production-grade Rust-native trading engine with deterministic event-driven architecture |
-| [lutzroeder/netron](https://github.com/lutzroeder/netron) | 33,732 | +23 | +107 | JavaScript | Visualizer for neural network, deep learning and machine learning models |
-| [modular/modular](https://github.com/modular/modular) | 30,211 | +46 | +148 | Mojo | The Modular Platform (includes MAX & Mojo) |
-| [pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) | 24,158 | +10 | +30 | Python | Graph Neural Network Library for PyTorch |
-| [onnx/onnx](https://github.com/onnx/onnx) | 21,762 | +41 | +138 | Python | Open standard for machine learning interoperability |
-| [bbfamily/abu](https://github.com/bbfamily/abu) | 19,268 | +46 | +223 | Python | 阿布量化交易系统(股票，期权，期货，比特币，机器学习) 基于python的开源量化交易，量化投资架构 |
-| [serengil/deepface](https://github.com/serengil/deepface) | 23,739 | +25 | +126 | Python | A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Python |
-| [wandb/openui](https://github.com/wandb/openui) | 22,772 | +5 | +75 | TypeScript | OpenUI let's you describe UI using your imagination, then see it rendered live. |
-| [bee-san/Ciphey](https://github.com/bee-san/Ciphey) | 21,801 | +24 | +91 | Rust | ⚡ Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes ⚡ |
-| [cmusatyalab/openface](https://github.com/cmusatyalab/openface) | 15,453 | +0 | +8 | Lua | Face recognition with deep neural networks. |
-| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 16,229 | +103 | +684 | C++ | Tensor library for machine learning |
-| [nltk/nltk](https://github.com/nltk/nltk) | 14,774 | +0 | +14 | Python | NLTK Source |
-| [google/magika](https://github.com/google/magika) | 18,869 | +25 | +123 | Rust | Fast and accurate AI powered file content types detection |
-| [datawhalechina/easy-rl](https://github.com/datawhalechina/easy-rl) | 14,932 | +23 | +88 | Jupyter Notebook | 强化学习中文教程（蘑菇书🍄），在线阅读地址：https://datawhalechina.github.io/easy-rl/ |
-| [DLR-RM/stable-baselines3](https://github.com/DLR-RM/stable-baselines3) | 14,055 | +19 | +114 | Python | PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms. |
+| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | 129,291 | +630 | +2,441 | TypeScript | Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own. |
+| [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) | 92,520 | +157 | +681 | Jupyter Notebook | 12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all |
+| [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 68,340 | +64 | +356 | Python | scikit-learn: machine learning in Python |
+| [keras-team/keras](https://github.com/keras-team/keras) | 64,454 | +9 | +59 | Python | Deep Learning for humans |
+| [ageitgey/face_recognition](https://github.com/ageitgey/face_recognition) | 56,922 | +8 | +62 | Python | The world's simplest facial recognition api for Python and the command line |
+| [hankcs/HanLP](https://github.com/hankcs/HanLP) | 36,543 | +2 | +12 | Python | 中文分词 词性标注 命名实体识别 依存句法分析 成分句法分析 语义依存分析 语义角色标注 指代消解 风格转换 语义相似度 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁转换 自然语言处理 |
+| [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49,313 | +29 | +92 | Julia | The Julia Programming Language |
+| [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus) | 34,928 | +29 | +114 | C++ | Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes. |
+| [fastai/fastbook](https://github.com/fastai/fastbook) | 25,524 | +24 | +96 | Jupyter Notebook | The fastai book, published as Jupyter Notebooks |
+| [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | 36,023 | +271 | +1,444 | Python | Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request. |
+| [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | 31,872 | +156 | +855 | Rust | Production-grade Rust-native trading engine with deterministic event-driven architecture |
+| [lutzroeder/netron](https://github.com/lutzroeder/netron) | 33,734 | +19 | +106 | JavaScript | Visualizer for neural network, deep learning and machine learning models |
+| [modular/modular](https://github.com/modular/modular) | 30,220 | +48 | +151 | Mojo | The Modular Platform (includes MAX & Mojo) |
+| [pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) | 24,158 | +9 | +30 | Python | Graph Neural Network Library for PyTorch |
+| [onnx/onnx](https://github.com/onnx/onnx) | 21,769 | +39 | +143 | Python | Open standard for machine learning interoperability |
+| [bbfamily/abu](https://github.com/bbfamily/abu) | 19,272 | +46 | +219 | Python | 阿布量化交易系统(股票，期权，期货，比特币，机器学习) 基于python的开源量化交易，量化投资架构 |
+| [serengil/deepface](https://github.com/serengil/deepface) | 23,744 | +26 | +129 | Python | A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Python |
+| [wandb/openui](https://github.com/wandb/openui) | 22,772 | +5 | +60 | TypeScript | OpenUI let's you describe UI using your imagination, then see it rendered live. |
+| [bee-san/Ciphey](https://github.com/bee-san/Ciphey) | 21,801 | +24 | +90 | Rust | ⚡ Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes ⚡ |
+| [cmusatyalab/openface](https://github.com/cmusatyalab/openface) | 15,454 | +1 | +6 | Lua | Face recognition with deep neural networks. |
+| [ggml-org/ggml](https://github.com/ggml-org/ggml) | 16,238 | +102 | +686 | C++ | Tensor library for machine learning |
+| [nltk/nltk](https://github.com/nltk/nltk) | 14,775 | +0 | +15 | Python | NLTK Source |
+| [google/magika](https://github.com/google/magika) | 18,871 | +23 | +122 | Rust | Fast and accurate AI powered file content types detection |
+| [datawhalechina/easy-rl](https://github.com/datawhalechina/easy-rl) | 14,934 | +24 | +90 | Jupyter Notebook | 强化学习中文教程（蘑菇书🍄），在线阅读地址：https://datawhalechina.github.io/easy-rl/ |
+| [DLR-RM/stable-baselines3](https://github.com/DLR-RM/stable-baselines3) | 14,066 | +29 | +123 | Python | PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms. |
